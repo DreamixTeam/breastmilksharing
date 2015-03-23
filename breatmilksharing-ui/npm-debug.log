@@ -1,0 +1,2453 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'karma-phantomjs-launcher',
+1 verbose cli   'karma-jasmine',
+1 verbose cli   'grunt-karma',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'karma-phantomjs-launcher', null ]
+7 verbose cache add name=undefined spec="karma-phantomjs-launcher" args=["karma-phantomjs-launcher",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'karma-phantomjs-launcher',
+8 verbose parsed url   path: 'karma-phantomjs-launcher',
+8 verbose parsed url   href: 'karma-phantomjs-launcher' }
+9 verbose cache add [ 'karma-jasmine', null ]
+10 verbose cache add name=undefined spec="karma-jasmine" args=["karma-jasmine",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'karma-jasmine',
+11 verbose parsed url   path: 'karma-jasmine',
+11 verbose parsed url   href: 'karma-jasmine' }
+12 verbose cache add [ 'grunt-karma', null ]
+13 verbose cache add name=undefined spec="grunt-karma" args=["grunt-karma",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt-karma',
+14 verbose parsed url   path: 'grunt-karma',
+14 verbose parsed url   href: 'grunt-karma' }
+15 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+16 verbose lock karma-phantomjs-launcher C:\Users\e.kyorova\AppData\Roaming\npm-cache\e0cbf986-karma-phantomjs-launcher.lock
+17 silly lockFile df56d5e8-karma-jasmine karma-jasmine
+18 verbose lock karma-jasmine C:\Users\e.kyorova\AppData\Roaming\npm-cache\df56d5e8-karma-jasmine.lock
+19 silly lockFile 707ccff9-grunt-karma grunt-karma
+20 verbose lock grunt-karma C:\Users\e.kyorova\AppData\Roaming\npm-cache\707ccff9-grunt-karma.lock
+21 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+22 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+23 silly lockFile df56d5e8-karma-jasmine karma-jasmine
+24 silly lockFile df56d5e8-karma-jasmine karma-jasmine
+25 silly lockFile 707ccff9-grunt-karma grunt-karma
+26 silly lockFile 707ccff9-grunt-karma grunt-karma
+27 verbose addNamed [ 'karma-phantomjs-launcher', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+30 verbose lock karma-phantomjs-launcher@ C:\Users\e.kyorova\AppData\Roaming\npm-cache\cdd40d81-karma-phantomjs-launcher.lock
+31 verbose addNamed [ 'karma-jasmine', '' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile a9316641-karma-jasmine karma-jasmine@
+34 verbose lock karma-jasmine@ C:\Users\e.kyorova\AppData\Roaming\npm-cache\a9316641-karma-jasmine.lock
+35 verbose addNamed [ 'grunt-karma', '' ]
+36 verbose addNamed [ null, '*' ]
+37 silly lockFile 94531edb-grunt-karma grunt-karma@
+38 verbose lock grunt-karma@ C:\Users\e.kyorova\AppData\Roaming\npm-cache\94531edb-grunt-karma.lock
+39 silly addNameRange { name: 'karma-phantomjs-launcher', range: '*', hasData: false }
+40 silly addNameRange { name: 'karma-jasmine', range: '*', hasData: false }
+41 silly addNameRange { name: 'grunt-karma', range: '*', hasData: false }
+42 verbose request where is /karma-jasmine
+43 verbose request registry https://registry.npmjs.org/
+44 verbose request id a63e323474c93dbb
+45 verbose url raw /karma-jasmine
+46 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jasmine' ]
+47 verbose url resolved https://registry.npmjs.org/karma-jasmine
+48 verbose request where is https://registry.npmjs.org/karma-jasmine
+49 info trying registry request attempt 1 at 10:01:04
+50 verbose etag "9XVJZWSON2901CRCJVIEF504X"
+51 http GET https://registry.npmjs.org/karma-jasmine
+52 verbose request where is /karma-phantomjs-launcher
+53 verbose request registry https://registry.npmjs.org/
+54 verbose url raw /karma-phantomjs-launcher
+55 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantomjs-launcher' ]
+56 verbose url resolved https://registry.npmjs.org/karma-phantomjs-launcher
+57 verbose request where is https://registry.npmjs.org/karma-phantomjs-launcher
+58 info trying registry request attempt 1 at 10:01:04
+59 verbose etag "AD8MFA11ER4EPL2PHD8D4AXIP"
+60 http GET https://registry.npmjs.org/karma-phantomjs-launcher
+61 verbose request where is /grunt-karma
+62 verbose request registry https://registry.npmjs.org/
+63 verbose url raw /grunt-karma
+64 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-karma' ]
+65 verbose url resolved https://registry.npmjs.org/grunt-karma
+66 verbose request where is https://registry.npmjs.org/grunt-karma
+67 info trying registry request attempt 1 at 10:01:04
+68 verbose etag "7E9HTXIFTPS4DA8VJXBGUX56R"
+69 http GET https://registry.npmjs.org/grunt-karma
+70 http 304 https://registry.npmjs.org/karma-jasmine
+71 silly registry.get cb [ 304,
+71 silly registry.get   { date: 'Mon, 23 Mar 2015 08:00:59 GMT',
+71 silly registry.get     server: 'Apache',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:00:59 GMT',
+71 silly registry.get     'cache-control': 'max-age=60',
+71 silly registry.get     etag: '"9XVJZWSON2901CRCJVIEF504X"',
+71 silly registry.get     age: '34',
+71 silly registry.get     'x-served-by': 'cache-ams4131-AMS',
+71 silly registry.get     'x-cache': 'HIT',
+71 silly registry.get     'x-cache-hits': '1',
+71 silly registry.get     'x-timer': 'S1427097659.556651,VS0,VE0',
+71 silly registry.get     vary: 'Accept',
+71 silly registry.get     'content-length': '0',
+71 silly registry.get     'keep-alive': 'timeout=10, max=50',
+71 silly registry.get     connection: 'Keep-Alive' } ]
+72 verbose etag https://registry.npmjs.org/karma-jasmine from cache
+73 http 304 https://registry.npmjs.org/grunt-karma
+74 silly registry.get cb [ 304,
+74 silly registry.get   { date: 'Mon, 23 Mar 2015 08:00:59 GMT',
+74 silly registry.get     server: 'Apache',
+74 silly registry.get     via: '1.1 varnish',
+74 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 07:07:08 GMT',
+74 silly registry.get     'cache-control': 'max-age=60',
+74 silly registry.get     etag: '"7E9HTXIFTPS4DA8VJXBGUX56R"',
+74 silly registry.get     age: '19',
+74 silly registry.get     'x-served-by': 'cache-ams4120-AMS',
+74 silly registry.get     'x-cache': 'HIT',
+74 silly registry.get     'x-cache-hits': '79',
+74 silly registry.get     'x-timer': 'S1427097659.562571,VS0,VE0',
+74 silly registry.get     vary: 'Accept',
+74 silly registry.get     'content-length': '0',
+74 silly registry.get     'keep-alive': 'timeout=10, max=50',
+74 silly registry.get     connection: 'Keep-Alive' } ]
+75 verbose etag https://registry.npmjs.org/grunt-karma from cache
+76 silly addNameRange number 2 { name: 'karma-jasmine', range: '*', hasData: true }
+77 silly addNameRange versions [ 'karma-jasmine',
+77 silly addNameRange   [ '0.0.1',
+77 silly addNameRange     '0.0.2',
+77 silly addNameRange     '0.0.3',
+77 silly addNameRange     '0.1.0',
+77 silly addNameRange     '0.1.1',
+77 silly addNameRange     '0.1.2',
+77 silly addNameRange     '0.1.3',
+77 silly addNameRange     '0.1.4',
+77 silly addNameRange     '0.1.5',
+77 silly addNameRange     '0.2.0',
+77 silly addNameRange     '0.2.1',
+77 silly addNameRange     '0.2.2',
+77 silly addNameRange     '0.2.3',
+77 silly addNameRange     '0.3.0',
+77 silly addNameRange     '0.3.1',
+77 silly addNameRange     '0.3.2',
+77 silly addNameRange     '0.3.3',
+77 silly addNameRange     '0.3.4',
+77 silly addNameRange     '0.3.5' ] ]
+78 verbose addNamed [ 'karma-jasmine', '0.3.5' ]
+79 verbose addNamed [ '0.3.5', '0.3.5' ]
+80 silly lockFile b510234b-karma-jasmine-0-3-5 karma-jasmine@0.3.5
+81 verbose lock karma-jasmine@0.3.5 C:\Users\e.kyorova\AppData\Roaming\npm-cache\b510234b-karma-jasmine-0-3-5.lock
+82 silly addNameRange number 2 { name: 'grunt-karma', range: '*', hasData: true }
+83 silly addNameRange versions [ 'grunt-karma',
+83 silly addNameRange   [ '0.3.0',
+83 silly addNameRange     '0.4.0',
+83 silly addNameRange     '0.4.1',
+83 silly addNameRange     '0.4.2',
+83 silly addNameRange     '0.4.3',
+83 silly addNameRange     '0.4.4',
+83 silly addNameRange     '0.5.0',
+83 silly addNameRange     '0.4.5',
+83 silly addNameRange     '0.5.1',
+83 silly addNameRange     '0.5.2',
+83 silly addNameRange     '0.4.6',
+83 silly addNameRange     '0.5.3',
+83 silly addNameRange     '0.5.4',
+83 silly addNameRange     '0.6.0',
+83 silly addNameRange     '0.6.1',
+83 silly addNameRange     '0.7.0',
+83 silly addNameRange     '0.6.2',
+83 silly addNameRange     '0.7.1',
+83 silly addNameRange     '0.7.2',
+83 silly addNameRange     '0.7.3',
+83 silly addNameRange     '0.8.0',
+83 silly addNameRange     '0.8.1',
+83 silly addNameRange     '0.8.2',
+83 silly addNameRange     '0.8.3',
+83 silly addNameRange     '0.9.0',
+83 silly addNameRange     '0.10.0',
+83 silly addNameRange     '0.10.1' ] ]
+84 verbose addNamed [ 'grunt-karma', '0.10.1' ]
+85 verbose addNamed [ '0.10.1', '0.10.1' ]
+86 silly lockFile ea61fc97-grunt-karma-0-10-1 grunt-karma@0.10.1
+87 verbose lock grunt-karma@0.10.1 C:\Users\e.kyorova\AppData\Roaming\npm-cache\ea61fc97-grunt-karma-0-10-1.lock
+88 silly lockFile ea61fc97-grunt-karma-0-10-1 grunt-karma@0.10.1
+89 silly lockFile ea61fc97-grunt-karma-0-10-1 grunt-karma@0.10.1
+90 silly lockFile 94531edb-grunt-karma grunt-karma@
+91 silly lockFile 94531edb-grunt-karma grunt-karma@
+92 http 304 https://registry.npmjs.org/karma-phantomjs-launcher
+93 silly registry.get cb [ 304,
+93 silly registry.get   { date: 'Mon, 23 Mar 2015 08:00:59 GMT',
+93 silly registry.get     server: 'Apache',
+93 silly registry.get     via: '1.1 varnish',
+93 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:00:59 GMT',
+93 silly registry.get     'cache-control': 'max-age=60',
+93 silly registry.get     etag: '"AD8MFA11ER4EPL2PHD8D4AXIP"',
+93 silly registry.get     age: '19',
+93 silly registry.get     'x-served-by': 'cache-ams4132-AMS',
+93 silly registry.get     'x-cache': 'HIT',
+93 silly registry.get     'x-cache-hits': '1',
+93 silly registry.get     'x-timer': 'S1427097659.572966,VS0,VE0',
+93 silly registry.get     vary: 'Accept',
+93 silly registry.get     'content-length': '0',
+93 silly registry.get     'keep-alive': 'timeout=10, max=50',
+93 silly registry.get     connection: 'Keep-Alive' } ]
+94 verbose etag https://registry.npmjs.org/karma-phantomjs-launcher from cache
+95 silly addNameRange number 2 { name: 'karma-phantomjs-launcher', range: '*', hasData: true }
+96 silly addNameRange versions [ 'karma-phantomjs-launcher',
+96 silly addNameRange   [ '0.0.1',
+96 silly addNameRange     '0.0.2',
+96 silly addNameRange     '0.0.3',
+96 silly addNameRange     '0.1.0',
+96 silly addNameRange     '0.1.1',
+96 silly addNameRange     '0.1.2',
+96 silly addNameRange     '0.1.3',
+96 silly addNameRange     '0.1.4' ] ]
+97 verbose addNamed [ 'karma-phantomjs-launcher', '0.1.4' ]
+98 verbose addNamed [ '0.1.4', '0.1.4' ]
+99 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+100 verbose lock karma-phantomjs-launcher@0.1.4 C:\Users\e.kyorova\AppData\Roaming\npm-cache\5b4ecc13-karma-phantomjs-launcher-0-1-4.lock
+101 silly lockFile b510234b-karma-jasmine-0-3-5 karma-jasmine@0.3.5
+102 silly lockFile b510234b-karma-jasmine-0-3-5 karma-jasmine@0.3.5
+103 silly lockFile a9316641-karma-jasmine karma-jasmine@
+104 silly lockFile a9316641-karma-jasmine karma-jasmine@
+105 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+106 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+107 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+108 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+109 silly resolved [ { name: 'grunt-karma',
+109 silly resolved     version: '0.10.1',
+109 silly resolved     description: 'grunt plugin for karma test runner',
+109 silly resolved     main: 'tasks/grunt-karma.js',
+109 silly resolved     repository:
+109 silly resolved      { type: 'git',
+109 silly resolved        url: 'https://github.com/karma-runner/grunt-karma.git' },
+109 silly resolved     keywords: [ 'gruntplugin', 'karma', 'grunt', 'test', 'unit', 'runner', 'TDD' ],
+109 silly resolved     scripts: { test: 'grunt test' },
+109 silly resolved     author: { name: 'Dave Geddes' },
+109 silly resolved     license: 'MIT',
+109 silly resolved     dependencies: { lodash: '~2.4.1' },
+109 silly resolved     devDependencies:
+109 silly resolved      { 'coffee-script': '~1.8.0',
+109 silly resolved        'expect.js': '^0.3.1',
+109 silly resolved        grunt: '~0.4.3',
+109 silly resolved        'grunt-auto-release': '0.0.6',
+109 silly resolved        'grunt-bump': '0.0.16',
+109 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+109 silly resolved        'grunt-contrib-watch': '~0.2.0',
+109 silly resolved        'grunt-conventional-changelog': '~0.0.12',
+109 silly resolved        'grunt-jscs-checker': '~0.6.1',
+109 silly resolved        'grunt-npm': '0.0.2',
+109 silly resolved        karma: '~0.12.0',
+109 silly resolved        'karma-chrome-launcher': '~0.1.2',
+109 silly resolved        'karma-firefox-launcher': '~0.1.3',
+109 silly resolved        'karma-mocha': '~0.1.3' },
+109 silly resolved     peerDependencies: { grunt: '0.4.x', karma: '~0.12.0' },
+109 silly resolved     contributors:
+109 silly resolved      [ [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object] ],
+109 silly resolved     gitHead: '5d2cfb3a565a7a892b8da696c20f6ea973b626cf',
+109 silly resolved     bugs: { url: 'https://github.com/karma-runner/grunt-karma/issues' },
+109 silly resolved     homepage: 'https://github.com/karma-runner/grunt-karma',
+109 silly resolved     _id: 'grunt-karma@0.10.1',
+109 silly resolved     _shasum: '255fae402bb04409cf95c6ac77e8c1968934924b',
+109 silly resolved     _from: 'grunt-karma@',
+109 silly resolved     _npmVersion: '2.1.9',
+109 silly resolved     _nodeVersion: '0.10.33',
+109 silly resolved     _npmUser: { name: 'dignifiedquire', email: 'dignifiedquire@gmail.com' },
+109 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+109 silly resolved     dist:
+109 silly resolved      { shasum: '255fae402bb04409cf95c6ac77e8c1968934924b',
+109 silly resolved        tarball: 'http://registry.npmjs.org/grunt-karma/-/grunt-karma-0.10.1.tgz' },
+109 silly resolved     directories: {},
+109 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.10.1.tgz',
+109 silly resolved     readme: 'ERROR: No README data found!' },
+109 silly resolved   { name: 'karma-jasmine',
+109 silly resolved     version: '0.3.5',
+109 silly resolved     description: 'A Karma plugin - adapter for Jasmine testing framework.',
+109 silly resolved     main: 'lib/index.js',
+109 silly resolved     scripts: { test: 'grunt test' },
+109 silly resolved     repository:
+109 silly resolved      { type: 'git',
+109 silly resolved        url: 'git://github.com/karma-runner/karma-jasmine.git' },
+109 silly resolved     keywords: [ 'karma-plugin', 'karma-adapter', 'jasmine' ],
+109 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+109 silly resolved     dependencies: {},
+109 silly resolved     devDependencies:
+109 silly resolved      { grunt: '~0.4.1',
+109 silly resolved        'grunt-contrib-jshint': '~0.6',
+109 silly resolved        karma: '~0.12.0',
+109 silly resolved        'karma-jasmine': '~0.1.0',
+109 silly resolved        'karma-chrome-launcher': '~0.1.0',
+109 silly resolved        'karma-firefox-launcher': '~0.1.0',
+109 silly resolved        'grunt-karma': '~0.8.0',
+109 silly resolved        'grunt-auto-release': '~0.0.2',
+109 silly resolved        'grunt-npm': '~0.0.2',
+109 silly resolved        'grunt-bump': '~0.0.7',
+109 silly resolved        'jasmine-core': '~2.1.0' },
+109 silly resolved     peerDependencies: { karma: '>=0.9', 'jasmine-core': '*' },
+109 silly resolved     license: 'MIT',
+109 silly resolved     contributors:
+109 silly resolved      [ [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object] ],
+109 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-jasmine/issues' },
+109 silly resolved     homepage: 'https://github.com/karma-runner/karma-jasmine',
+109 silly resolved     _id: 'karma-jasmine@0.3.5',
+109 silly resolved     dist:
+109 silly resolved      { shasum: 'd6c7bce49f0747b59b557156502a28009a44055d',
+109 silly resolved        tarball: 'http://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz' },
+109 silly resolved     _from: 'karma-jasmine@',
+109 silly resolved     _npmVersion: '1.4.4',
+109 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+109 silly resolved     maintainers: [ [Object], [Object] ],
+109 silly resolved     directories: {},
+109 silly resolved     _shasum: 'd6c7bce49f0747b59b557156502a28009a44055d',
+109 silly resolved     _resolved: 'https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz',
+109 silly resolved     readme: 'ERROR: No README data found!' },
+109 silly resolved   { name: 'karma-phantomjs-launcher',
+109 silly resolved     version: '0.1.4',
+109 silly resolved     description: 'A Karma plugin. Launcher for PhantomJS.',
+109 silly resolved     main: 'index.js',
+109 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+109 silly resolved     repository:
+109 silly resolved      { type: 'git',
+109 silly resolved        url: 'git://github.com/karma-runner/karma-phantomjs-launcher.git' },
+109 silly resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'phantomjs' ],
+109 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+109 silly resolved     dependencies: { phantomjs: '~1.9' },
+109 silly resolved     peerDependencies: { karma: '>=0.9' },
+109 silly resolved     license: 'MIT',
+109 silly resolved     devDependencies:
+109 silly resolved      { grunt: '~0.4.1',
+109 silly resolved        'grunt-npm': '~0.0.2',
+109 silly resolved        'grunt-bump': '~0.0.7',
+109 silly resolved        'grunt-auto-release': '~0.0.2' },
+109 silly resolved     contributors:
+109 silly resolved      [ [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object],
+109 silly resolved        [Object] ],
+109 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-phantomjs-launcher/issues' },
+109 silly resolved     homepage: 'https://github.com/karma-runner/karma-phantomjs-launcher',
+109 silly resolved     _id: 'karma-phantomjs-launcher@0.1.4',
+109 silly resolved     dist:
+109 silly resolved      { shasum: '4ef96e4322ff63ae5d918e51c25b213723238f30',
+109 silly resolved        tarball: 'http://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz' },
+109 silly resolved     _from: 'karma-phantomjs-launcher@',
+109 silly resolved     _npmVersion: '1.4.4',
+109 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+109 silly resolved     maintainers: [ [Object] ],
+109 silly resolved     directories: {},
+109 silly resolved     _shasum: '4ef96e4322ff63ae5d918e51c25b213723238f30',
+109 silly resolved     _resolved: 'https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz',
+109 silly resolved     readme: 'ERROR: No README data found!' } ]
+110 info install grunt-karma@0.10.1 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+111 info install karma-jasmine@0.3.5 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+112 info install karma-phantomjs-launcher@0.1.4 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+113 info installOne grunt-karma@0.10.1
+114 info installOne karma-jasmine@0.3.5
+115 info installOne karma-phantomjs-launcher@0.1.4
+116 verbose node_modules\grunt-karma unbuild
+117 verbose node_modules\karma-jasmine unbuild
+118 verbose node_modules\karma-phantomjs-launcher unbuild
+119 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt-karma\0.10.1\package.tgz
+120 silly lockFile 735a01df-ring-ui-node-modules-grunt-karma tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma
+121 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma C:\Users\e.kyorova\AppData\Roaming\npm-cache\735a01df-ring-ui-node-modules-grunt-karma.lock
+122 silly lockFile 505ff036-e-grunt-karma-0-10-1-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt-karma\0.10.1\package.tgz
+123 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt-karma\0.10.1\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\505ff036-e-grunt-karma-0-10-1-package-tgz.lock
+124 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-jasmine\0.3.5\package.tgz
+125 silly lockFile 99a06168-ng-ui-node-modules-karma-jasmine tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-jasmine
+126 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-jasmine C:\Users\e.kyorova\AppData\Roaming\npm-cache\99a06168-ng-ui-node-modules-karma-jasmine.lock
+127 silly lockFile fb3d7709--karma-jasmine-0-3-5-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-jasmine\0.3.5\package.tgz
+128 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-jasmine\0.3.5\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\fb3d7709--karma-jasmine-0-3-5-package-tgz.lock
+129 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-phantomjs-launcher\0.1.4\package.tgz
+130 silly lockFile 575f51f0-modules-karma-phantomjs-launcher tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher
+131 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher C:\Users\e.kyorova\AppData\Roaming\npm-cache\575f51f0-modules-karma-phantomjs-launcher.lock
+132 silly lockFile a62fa853-tomjs-launcher-0-1-4-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-phantomjs-launcher\0.1.4\package.tgz
+133 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-phantomjs-launcher\0.1.4\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\a62fa853-tomjs-launcher-0-1-4-package-tgz.lock
+134 silly gunzTarPerm modes [ '777', '666' ]
+135 silly gunzTarPerm modes [ '777', '666' ]
+136 silly gunzTarPerm modes [ '777', '666' ]
+137 silly gunzTarPerm extractEntry package.json
+138 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+139 silly gunzTarPerm extractEntry README.md
+140 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+141 silly gunzTarPerm extractEntry LICENSE
+142 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+143 silly gunzTarPerm extractEntry package.json
+144 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+145 silly gunzTarPerm extractEntry LICENSE
+146 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+147 silly gunzTarPerm extractEntry index.js
+148 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry integration-tests.sh
+150 silly gunzTarPerm modified mode [ 'integration-tests.sh', 492, 510 ]
+151 silly gunzTarPerm extractEntry lib/adapter.js
+152 silly gunzTarPerm modified mode [ 'lib/adapter.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry lib/boot.js
+154 silly gunzTarPerm modified mode [ 'lib/boot.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry lib/index.js
+156 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry package.json
+158 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+159 silly lockFile 575f51f0-modules-karma-phantomjs-launcher tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher
+160 silly lockFile 575f51f0-modules-karma-phantomjs-launcher tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher
+161 silly lockFile a62fa853-tomjs-launcher-0-1-4-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-phantomjs-launcher\0.1.4\package.tgz
+162 silly lockFile a62fa853-tomjs-launcher-0-1-4-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-phantomjs-launcher\0.1.4\package.tgz
+163 silly gunzTarPerm extractEntry .npmignore
+164 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+165 silly gunzTarPerm extractEntry README.md
+166 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+167 info preinstall karma-phantomjs-launcher@0.1.4
+168 verbose readDependencies using package.json deps
+169 verbose readDependencies using package.json deps
+170 silly gunzTarPerm extractEntry LICENSE
+171 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+172 silly gunzTarPerm extractEntry karma.conf.js
+173 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry CHANGELOG.md
+175 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+176 silly gunzTarPerm extractEntry Gruntfile.coffee
+177 silly gunzTarPerm modified mode [ 'Gruntfile.coffee', 420, 438 ]
+178 silly gunzTarPerm extractEntry .jscs.json
+179 silly gunzTarPerm modified mode [ '.jscs.json', 420, 438 ]
+180 silly gunzTarPerm extractEntry TODO.md
+181 silly gunzTarPerm modified mode [ 'TODO.md', 420, 438 ]
+182 silly gunzTarPerm extractEntry .mailmap
+183 silly gunzTarPerm modified mode [ '.mailmap', 420, 438 ]
+184 silly gunzTarPerm extractEntry lib/background.js
+185 silly gunzTarPerm modified mode [ 'lib/background.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry tasks/grunt-karma.js
+187 silly gunzTarPerm modified mode [ 'tasks/grunt-karma.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry .travis.yml
+189 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+190 silly gunzTarPerm extractEntry test/grunt-karma-test.js
+191 silly gunzTarPerm modified mode [ 'test/grunt-karma-test.js', 420, 438 ]
+192 verbose cache add [ 'phantomjs@~1.9', null ]
+193 verbose cache add name=undefined spec="phantomjs@~1.9" args=["phantomjs@~1.9",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'phantomjs@~1.9',
+194 verbose parsed url   path: 'phantomjs@~1.9',
+194 verbose parsed url   href: 'phantomjs@~1.9' }
+195 verbose cache add name="phantomjs" spec="~1.9" args=["phantomjs","~1.9"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '~1.9',
+196 verbose parsed url   path: '~1.9',
+196 verbose parsed url   href: '~1.9' }
+197 verbose addNamed [ 'phantomjs', '~1.9' ]
+198 verbose addNamed [ null, '>=1.9.0-0 <1.10.0-0' ]
+199 silly lockFile 472de541-phantomjs-1-9 phantomjs@~1.9
+200 verbose lock phantomjs@~1.9 C:\Users\e.kyorova\AppData\Roaming\npm-cache\472de541-phantomjs-1-9.lock
+201 silly addNameRange { name: 'phantomjs',
+201 silly addNameRange   range: '>=1.9.0-0 <1.10.0-0',
+201 silly addNameRange   hasData: false }
+202 silly lockFile 99a06168-ng-ui-node-modules-karma-jasmine tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-jasmine
+203 silly lockFile 99a06168-ng-ui-node-modules-karma-jasmine tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-jasmine
+204 silly lockFile fb3d7709--karma-jasmine-0-3-5-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-jasmine\0.3.5\package.tgz
+205 silly lockFile fb3d7709--karma-jasmine-0-3-5-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma-jasmine\0.3.5\package.tgz
+206 info preinstall karma-jasmine@0.3.5
+207 verbose readDependencies using package.json deps
+208 verbose readDependencies using package.json deps
+209 silly resolved []
+210 verbose about to build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-jasmine
+211 info build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-jasmine
+212 verbose linkStuff [ false,
+212 verbose linkStuff   false,
+212 verbose linkStuff   false,
+212 verbose linkStuff   'C:\\Users\\e.kyorova\\breastmilksharing\\breastmilksharing\\breatmilksharing-ui\\node_modules' ]
+213 info linkStuff karma-jasmine@0.3.5
+214 verbose linkBins karma-jasmine@0.3.5
+215 verbose linkMans karma-jasmine@0.3.5
+216 verbose rebuildBundles karma-jasmine@0.3.5
+217 info install karma-jasmine@0.3.5
+218 info postinstall karma-jasmine@0.3.5
+219 verbose readDependencies using package.json deps
+220 silly lockFile 735a01df-ring-ui-node-modules-grunt-karma tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma
+221 silly lockFile 735a01df-ring-ui-node-modules-grunt-karma tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma
+222 silly lockFile 505ff036-e-grunt-karma-0-10-1-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt-karma\0.10.1\package.tgz
+223 silly lockFile 505ff036-e-grunt-karma-0-10-1-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt-karma\0.10.1\package.tgz
+224 info preinstall grunt-karma@0.10.1
+225 verbose readDependencies using package.json deps
+226 verbose readDependencies using package.json deps
+227 verbose cache add [ 'lodash@~2.4.1', null ]
+228 verbose cache add name=undefined spec="lodash@~2.4.1" args=["lodash@~2.4.1",null]
+229 verbose parsed url { protocol: null,
+229 verbose parsed url   slashes: null,
+229 verbose parsed url   auth: null,
+229 verbose parsed url   host: null,
+229 verbose parsed url   port: null,
+229 verbose parsed url   hostname: null,
+229 verbose parsed url   hash: null,
+229 verbose parsed url   search: null,
+229 verbose parsed url   query: null,
+229 verbose parsed url   pathname: 'lodash@~2.4.1',
+229 verbose parsed url   path: 'lodash@~2.4.1',
+229 verbose parsed url   href: 'lodash@~2.4.1' }
+230 verbose cache add [ 'karma@>=0.9', null ]
+231 verbose cache add name=undefined spec="karma@>=0.9" args=["karma@>=0.9",null]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: 'karma@%3E=0.9',
+232 verbose parsed url   path: 'karma@%3E=0.9',
+232 verbose parsed url   href: 'karma@%3E=0.9' }
+233 verbose cache add [ 'jasmine-core@*', null ]
+234 verbose cache add name=undefined spec="jasmine-core@*" args=["jasmine-core@*",null]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: 'jasmine-core@*',
+235 verbose parsed url   path: 'jasmine-core@*',
+235 verbose parsed url   href: 'jasmine-core@*' }
+236 verbose cache add name="lodash" spec="~2.4.1" args=["lodash","~2.4.1"]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: '~2.4.1',
+237 verbose parsed url   path: '~2.4.1',
+237 verbose parsed url   href: '~2.4.1' }
+238 verbose addNamed [ 'lodash', '~2.4.1' ]
+239 verbose addNamed [ null, '>=2.4.1-0 <2.5.0-0' ]
+240 silly lockFile 257f9ab3-lodash-2-4-1 lodash@~2.4.1
+241 verbose lock lodash@~2.4.1 C:\Users\e.kyorova\AppData\Roaming\npm-cache\257f9ab3-lodash-2-4-1.lock
+242 verbose cache add name="karma" spec=">=0.9" args=["karma",">=0.9"]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: '%3E=0.9',
+243 verbose parsed url   path: '%3E=0.9',
+243 verbose parsed url   href: '%3E=0.9' }
+244 verbose addNamed [ 'karma', '>=0.9' ]
+245 verbose addNamed [ null, '>=0.9.0-0' ]
+246 silly lockFile 0ddc6e0a-karma-0-9 karma@>=0.9
+247 verbose lock karma@>=0.9 C:\Users\e.kyorova\AppData\Roaming\npm-cache\0ddc6e0a-karma-0-9.lock
+248 verbose cache add name="jasmine-core" spec="*" args=["jasmine-core","*"]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: '*',
+249 verbose parsed url   path: '*',
+249 verbose parsed url   href: '*' }
+250 verbose addNamed [ 'jasmine-core', '*' ]
+251 verbose addNamed [ null, '*' ]
+252 silly lockFile 655775a6-jasmine-core jasmine-core@*
+253 verbose lock jasmine-core@* C:\Users\e.kyorova\AppData\Roaming\npm-cache\655775a6-jasmine-core.lock
+254 silly addNameRange { name: 'lodash', range: '>=2.4.1-0 <2.5.0-0', hasData: false }
+255 silly addNameRange { name: 'karma', range: '>=0.9.0-0', hasData: false }
+256 silly addNameRange { name: 'jasmine-core', range: '*', hasData: false }
+257 verbose request where is /lodash
+258 verbose request registry https://registry.npmjs.org/
+259 verbose url raw /lodash
+260 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+261 verbose url resolved https://registry.npmjs.org/lodash
+262 verbose request where is https://registry.npmjs.org/lodash
+263 info trying registry request attempt 1 at 10:01:05
+264 verbose etag "Q6LU21MBMW8LSR9KY4X71Q3G"
+265 http GET https://registry.npmjs.org/lodash
+266 verbose request where is /jasmine-core
+267 verbose request registry https://registry.npmjs.org/
+268 verbose url raw /jasmine-core
+269 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-core' ]
+270 verbose url resolved https://registry.npmjs.org/jasmine-core
+271 verbose request where is https://registry.npmjs.org/jasmine-core
+272 info trying registry request attempt 1 at 10:01:05
+273 verbose etag "2SWEGK72N3W73VJTGHHTBB3M"
+274 http GET https://registry.npmjs.org/jasmine-core
+275 verbose request where is /phantomjs
+276 verbose request registry https://registry.npmjs.org/
+277 verbose url raw /phantomjs
+278 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+279 verbose url resolved https://registry.npmjs.org/phantomjs
+280 verbose request where is https://registry.npmjs.org/phantomjs
+281 info trying registry request attempt 1 at 10:01:05
+282 verbose etag "7M77BBP42QJP0IBVQAZYIN29E"
+283 http GET https://registry.npmjs.org/phantomjs
+284 verbose request where is /karma
+285 verbose request registry https://registry.npmjs.org/
+286 verbose url raw /karma
+287 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
+288 verbose url resolved https://registry.npmjs.org/karma
+289 verbose request where is https://registry.npmjs.org/karma
+290 info trying registry request attempt 1 at 10:01:05
+291 verbose etag "2MJ5NJHLESOEDIAZ5IULLE8Z4"
+292 http GET https://registry.npmjs.org/karma
+293 http 304 https://registry.npmjs.org/lodash
+294 silly registry.get cb [ 304,
+294 silly registry.get   { date: 'Mon, 23 Mar 2015 08:00:59 GMT',
+294 silly registry.get     server: 'Apache',
+294 silly registry.get     via: '1.1 varnish',
+294 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:00:59 GMT',
+294 silly registry.get     'cache-control': 'max-age=60',
+294 silly registry.get     etag: '"Q6LU21MBMW8LSR9KY4X71Q3G"',
+294 silly registry.get     age: '0',
+294 silly registry.get     'x-served-by': 'cache-ams4137-AMS',
+294 silly registry.get     'x-cache': 'HIT',
+294 silly registry.get     'x-cache-hits': '1',
+294 silly registry.get     'x-timer': 'S1427097659.939340,VS0,VE0',
+294 silly registry.get     vary: 'Accept',
+294 silly registry.get     'content-length': '0',
+294 silly registry.get     'keep-alive': 'timeout=10, max=50',
+294 silly registry.get     connection: 'Keep-Alive' } ]
+295 verbose etag https://registry.npmjs.org/lodash from cache
+296 http 304 https://registry.npmjs.org/jasmine-core
+297 silly registry.get cb [ 304,
+297 silly registry.get   { date: 'Mon, 23 Mar 2015 08:00:59 GMT',
+297 silly registry.get     server: 'Apache',
+297 silly registry.get     via: '1.1 varnish',
+297 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:00:59 GMT',
+297 silly registry.get     'cache-control': 'max-age=60',
+297 silly registry.get     etag: '"2SWEGK72N3W73VJTGHHTBB3M"',
+297 silly registry.get     age: '17',
+297 silly registry.get     'x-served-by': 'cache-ams4144-AMS',
+297 silly registry.get     'x-cache': 'HIT',
+297 silly registry.get     'x-cache-hits': '1',
+297 silly registry.get     'x-timer': 'S1427097659.942145,VS0,VE0',
+297 silly registry.get     vary: 'Accept',
+297 silly registry.get     'content-length': '0',
+297 silly registry.get     'keep-alive': 'timeout=10, max=50',
+297 silly registry.get     connection: 'Keep-Alive' } ]
+298 verbose etag https://registry.npmjs.org/jasmine-core from cache
+299 silly addNameRange number 2 { name: 'jasmine-core', range: '*', hasData: true }
+300 silly addNameRange versions [ 'jasmine-core',
+300 silly addNameRange   [ '2.0.0',
+300 silly addNameRange     '2.0.1',
+300 silly addNameRange     '2.0.4',
+300 silly addNameRange     '2.1.0',
+300 silly addNameRange     '2.1.1',
+300 silly addNameRange     '2.1.2',
+300 silly addNameRange     '2.1.3',
+300 silly addNameRange     '2.2.0' ] ]
+301 verbose addNamed [ 'jasmine-core', '2.2.0' ]
+302 verbose addNamed [ '2.2.0', '2.2.0' ]
+303 silly lockFile 07e7ab73-jasmine-core-2-2-0 jasmine-core@2.2.0
+304 verbose lock jasmine-core@2.2.0 C:\Users\e.kyorova\AppData\Roaming\npm-cache\07e7ab73-jasmine-core-2-2-0.lock
+305 silly addNameRange number 2 { name: 'lodash', range: '>=2.4.1-0 <2.5.0-0', hasData: true }
+306 silly addNameRange versions [ 'lodash',
+306 silly addNameRange   [ '0.1.0',
+306 silly addNameRange     '0.2.0',
+306 silly addNameRange     '0.2.1',
+306 silly addNameRange     '0.2.2',
+306 silly addNameRange     '0.3.0',
+306 silly addNameRange     '0.3.1',
+306 silly addNameRange     '0.3.2',
+306 silly addNameRange     '0.4.0',
+306 silly addNameRange     '0.4.1',
+306 silly addNameRange     '0.4.2',
+306 silly addNameRange     '0.5.0-rc.1',
+306 silly addNameRange     '0.5.0',
+306 silly addNameRange     '0.5.1',
+306 silly addNameRange     '0.5.2',
+306 silly addNameRange     '0.6.0',
+306 silly addNameRange     '0.6.1',
+306 silly addNameRange     '0.7.0',
+306 silly addNameRange     '0.8.0',
+306 silly addNameRange     '0.8.1',
+306 silly addNameRange     '0.8.2',
+306 silly addNameRange     '0.9.0',
+306 silly addNameRange     '0.9.1',
+306 silly addNameRange     '0.9.2',
+306 silly addNameRange     '0.10.0',
+306 silly addNameRange     '1.0.0-rc.1',
+306 silly addNameRange     '1.0.0-rc.2',
+306 silly addNameRange     '1.0.0-rc.3',
+306 silly addNameRange     '1.0.0',
+306 silly addNameRange     '1.0.1',
+306 silly addNameRange     '1.1.0',
+306 silly addNameRange     '1.1.1',
+306 silly addNameRange     '1.2.0',
+306 silly addNameRange     '1.2.1',
+306 silly addNameRange     '1.3.0',
+306 silly addNameRange     '1.3.1',
+306 silly addNameRange     '2.0.0',
+306 silly addNameRange     '2.1.0',
+306 silly addNameRange     '2.2.0',
+306 silly addNameRange     '2.2.1',
+306 silly addNameRange     '2.3.0',
+306 silly addNameRange     '2.4.0',
+306 silly addNameRange     '2.4.1',
+306 silly addNameRange     '3.0.0',
+306 silly addNameRange     '3.0.1',
+306 silly addNameRange     '3.1.0',
+306 silly addNameRange     '3.2.0',
+306 silly addNameRange     '3.3.0',
+306 silly addNameRange     '3.3.1',
+306 silly addNameRange     '3.4.0',
+306 silly addNameRange     '3.5.0' ] ]
+307 verbose addNamed [ 'lodash', '2.4.1' ]
+308 verbose addNamed [ '2.4.1', '2.4.1' ]
+309 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+310 verbose lock lodash@2.4.1 C:\Users\e.kyorova\AppData\Roaming\npm-cache\8502be2a-lodash-2-4-1.lock
+311 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+312 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+313 silly lockFile 257f9ab3-lodash-2-4-1 lodash@~2.4.1
+314 silly lockFile 257f9ab3-lodash-2-4-1 lodash@~2.4.1
+315 silly resolved [ { name: 'lodash',
+315 silly resolved     version: '2.4.1',
+315 silly resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+315 silly resolved     homepage: 'http://lodash.com/',
+315 silly resolved     license: 'MIT',
+315 silly resolved     main: 'dist/lodash.js',
+315 silly resolved     keywords:
+315 silly resolved      [ 'amd',
+315 silly resolved        'browser',
+315 silly resolved        'client',
+315 silly resolved        'customize',
+315 silly resolved        'functional',
+315 silly resolved        'server',
+315 silly resolved        'util' ],
+315 silly resolved     author:
+315 silly resolved      { name: 'John-David Dalton',
+315 silly resolved        email: 'john.david.dalton@gmail.com',
+315 silly resolved        url: 'http://allyoucanleet.com/' },
+315 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+315 silly resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+315 silly resolved     repository: { type: 'git', url: 'https://github.com/lodash/lodash.git' },
+315 silly resolved     engines: [ 'node', 'rhino' ],
+315 silly resolved     files:
+315 silly resolved      [ 'LICENSE.txt',
+315 silly resolved        'lodash.js',
+315 silly resolved        'dist/lodash.js',
+315 silly resolved        'dist/lodash.min.js',
+315 silly resolved        'dist/lodash.compat.js',
+315 silly resolved        'dist/lodash.compat.min.js',
+315 silly resolved        'dist/lodash.underscore.js',
+315 silly resolved        'dist/lodash.underscore.min.js' ],
+315 silly resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+315 silly resolved     volo: { type: 'directory', ignore: [Object] },
+315 silly resolved     _id: 'lodash@2.4.1',
+315 silly resolved     dist:
+315 silly resolved      { shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+315 silly resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz' },
+315 silly resolved     _from: 'lodash@~2.4.1',
+315 silly resolved     _npmVersion: '1.3.14',
+315 silly resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+315 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+315 silly resolved     directories: {},
+315 silly resolved     _shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+315 silly resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+315 silly resolved     readme: 'ERROR: No README data found!',
+315 silly resolved     scripts: {} } ]
+316 info install lodash@2.4.1 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma
+317 info installOne lodash@2.4.1
+318 verbose node_modules\grunt-karma\node_modules\lodash unbuild
+319 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+320 silly lockFile 2bfc118d--grunt-karma-node-modules-lodash tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma\node_modules\lodash
+321 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma\node_modules\lodash C:\Users\e.kyorova\AppData\Roaming\npm-cache\2bfc118d--grunt-karma-node-modules-lodash.lock
+322 silly lockFile fbd6b337-m-cache-lodash-2-4-1-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+323 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\fbd6b337-m-cache-lodash-2-4-1-package-tgz.lock
+324 silly gunzTarPerm modes [ '777', '666' ]
+325 silly gunzTarPerm extractEntry package.json
+326 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+327 silly gunzTarPerm extractEntry README.md
+328 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+329 silly gunzTarPerm extractEntry lodash.js
+330 silly gunzTarPerm modified mode [ 'lodash.js', 420, 438 ]
+331 silly gunzTarPerm extractEntry LICENSE.txt
+332 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+333 silly lockFile 07e7ab73-jasmine-core-2-2-0 jasmine-core@2.2.0
+334 silly lockFile 07e7ab73-jasmine-core-2-2-0 jasmine-core@2.2.0
+335 silly lockFile 655775a6-jasmine-core jasmine-core@*
+336 silly lockFile 655775a6-jasmine-core jasmine-core@*
+337 silly gunzTarPerm extractEntry dist/lodash.compat.js
+338 silly gunzTarPerm modified mode [ 'dist/lodash.compat.js', 420, 438 ]
+339 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+340 silly gunzTarPerm modified mode [ 'dist/lodash.compat.min.js', 420, 438 ]
+341 silly gunzTarPerm extractEntry dist/lodash.js
+342 silly gunzTarPerm modified mode [ 'dist/lodash.js', 420, 438 ]
+343 silly gunzTarPerm extractEntry dist/lodash.min.js
+344 silly gunzTarPerm modified mode [ 'dist/lodash.min.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+346 silly gunzTarPerm modified mode [ 'dist/lodash.underscore.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+348 silly gunzTarPerm modified mode [ 'dist/lodash.underscore.min.js', 420, 438 ]
+349 http 304 https://registry.npmjs.org/phantomjs
+350 silly registry.get cb [ 304,
+350 silly registry.get   { date: 'Mon, 23 Mar 2015 08:00:59 GMT',
+350 silly registry.get     server: 'Apache',
+350 silly registry.get     via: '1.1 varnish',
+350 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 07:58:15 GMT',
+350 silly registry.get     'cache-control': 'max-age=60',
+350 silly registry.get     etag: '"7M77BBP42QJP0IBVQAZYIN29E"',
+350 silly registry.get     age: '33',
+350 silly registry.get     'x-served-by': 'cache-ams4140-AMS',
+350 silly registry.get     'x-cache': 'HIT',
+350 silly registry.get     'x-cache-hits': '20',
+350 silly registry.get     'x-timer': 'S1427097659.989002,VS0,VE0',
+350 silly registry.get     vary: 'Accept',
+350 silly registry.get     'content-length': '0',
+350 silly registry.get     'keep-alive': 'timeout=10, max=50',
+350 silly registry.get     connection: 'Keep-Alive' } ]
+351 verbose etag https://registry.npmjs.org/phantomjs from cache
+352 silly addNameRange number 2 { name: 'phantomjs',
+352 silly addNameRange   range: '>=1.9.0-0 <1.10.0-0',
+352 silly addNameRange   hasData: true }
+353 silly addNameRange versions [ 'phantomjs',
+353 silly addNameRange   [ '0.0.1',
+353 silly addNameRange     '0.0.2',
+353 silly addNameRange     '0.0.3',
+353 silly addNameRange     '0.0.4',
+353 silly addNameRange     '0.0.5',
+353 silly addNameRange     '0.0.6',
+353 silly addNameRange     '0.0.7',
+353 silly addNameRange     '0.0.8',
+353 silly addNameRange     '0.0.9',
+353 silly addNameRange     '0.1.0',
+353 silly addNameRange     '0.1.1',
+353 silly addNameRange     '0.2.0',
+353 silly addNameRange     '0.2.1',
+353 silly addNameRange     '0.2.2',
+353 silly addNameRange     '0.2.3',
+353 silly addNameRange     '0.2.4',
+353 silly addNameRange     '0.2.5',
+353 silly addNameRange     '0.2.6',
+353 silly addNameRange     '1.8.0-1',
+353 silly addNameRange     '1.8.1-1',
+353 silly addNameRange     '1.8.1-2',
+353 silly addNameRange     '1.8.1-3',
+353 silly addNameRange     '1.8.2-0',
+353 silly addNameRange     '1.8.2-1',
+353 silly addNameRange     '1.8.2-2',
+353 silly addNameRange     '1.9.0-0',
+353 silly addNameRange     '1.9.0-1',
+353 silly addNameRange     '1.9.0-2',
+353 silly addNameRange     '1.9.0-3',
+353 silly addNameRange     '1.9.0-4',
+353 silly addNameRange     '1.9.0-5',
+353 silly addNameRange     '1.9.0-6',
+353 silly addNameRange     '1.9.1-0',
+353 silly addNameRange     '1.9.1-2',
+353 silly addNameRange     '1.9.1-3',
+353 silly addNameRange     '1.9.1-4',
+353 silly addNameRange     '1.9.1-5',
+353 silly addNameRange     '1.9.1-6',
+353 silly addNameRange     '1.9.1-7',
+353 silly addNameRange     '1.9.1-8',
+353 silly addNameRange     '1.9.1-9',
+353 silly addNameRange     '1.9.2-0',
+353 silly addNameRange     '1.9.2-1',
+353 silly addNameRange     '1.9.2-2',
+353 silly addNameRange     '1.9.2-3',
+353 silly addNameRange     '1.9.2-4',
+353 silly addNameRange     '1.9.2-5',
+353 silly addNameRange     '1.9.2-6',
+353 silly addNameRange     '1.9.6-0',
+353 silly addNameRange     '1.9.7-1',
+353 silly addNameRange     '1.9.7-3',
+353 silly addNameRange     '1.9.7-4',
+353 silly addNameRange     '1.9.7-5',
+353 silly addNameRange     '1.9.7-6',
+353 silly addNameRange     '1.9.7-7',
+353 silly addNameRange     '1.9.7-8',
+353 silly addNameRange     '1.9.7-9',
+353 silly addNameRange     '1.9.7-10',
+353 silly addNameRange     '1.9.7-11',
+353 silly addNameRange     '1.9.7-12',
+353 silly addNameRange     '1.9.7-13',
+353 silly addNameRange     '1.9.7-14',
+353 silly addNameRange     '1.9.7-15',
+353 silly addNameRange     '1.8.2-3',
+353 silly addNameRange     '1.9.8',
+353 silly addNameRange     '1.9.9',
+353 silly addNameRange     '1.9.10',
+353 silly addNameRange     '1.9.11',
+353 silly addNameRange     '1.9.12',
+353 silly addNameRange     '1.9.13',
+353 silly addNameRange     '1.9.15',
+353 silly addNameRange     '1.9.16' ] ]
+354 verbose addNamed [ 'phantomjs', '1.9.16' ]
+355 verbose addNamed [ '1.9.16', '1.9.16' ]
+356 silly lockFile ff1a0094-phantomjs-1-9-16 phantomjs@1.9.16
+357 verbose lock phantomjs@1.9.16 C:\Users\e.kyorova\AppData\Roaming\npm-cache\ff1a0094-phantomjs-1-9-16.lock
+358 silly lockFile ff1a0094-phantomjs-1-9-16 phantomjs@1.9.16
+359 silly lockFile ff1a0094-phantomjs-1-9-16 phantomjs@1.9.16
+360 silly lockFile 472de541-phantomjs-1-9 phantomjs@~1.9
+361 silly lockFile 472de541-phantomjs-1-9 phantomjs@~1.9
+362 silly resolved [ { name: 'phantomjs',
+362 silly resolved     version: '1.9.16',
+362 silly resolved     keywords: [ 'phantomjs', 'headless', 'webkit' ],
+362 silly resolved     description: 'Headless WebKit with JS API',
+362 silly resolved     homepage: 'https://github.com/Medium/phantomjs',
+362 silly resolved     repository: { type: 'git', url: 'git://github.com/Medium/phantomjs.git' },
+362 silly resolved     licenses: [ [Object] ],
+362 silly resolved     author:
+362 silly resolved      { name: 'Dan Pupius',
+362 silly resolved        email: 'dan@obvious.com',
+362 silly resolved        url: 'http://pupius.co.uk' },
+362 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+362 silly resolved     main: 'lib/phantomjs',
+362 silly resolved     bin: { phantomjs: './bin/phantomjs' },
+362 silly resolved     scripts:
+362 silly resolved      { install: 'node install.js',
+362 silly resolved        test: 'nodeunit --reporter=minimal test/tests.js' },
+362 silly resolved     dependencies:
+362 silly resolved      { 'adm-zip': '0.4.4',
+362 silly resolved        'fs-extra': '~0.16.0',
+362 silly resolved        kew: '0.4.0',
+362 silly resolved        npmconf: '2.1.1',
+362 silly resolved        progress: '1.1.8',
+362 silly resolved        request: '2.42.0',
+362 silly resolved        'request-progress': '0.3.1',
+362 silly resolved        which: '~1.0.5' },
+362 silly resolved     devDependencies: { nodeunit: '0.9.0' },
+362 silly resolved     gitHead: '71b26b9c64679976528b7c86dac1b480f8986e2b',
+362 silly resolved     bugs: { url: 'https://github.com/Medium/phantomjs/issues' },
+362 silly resolved     _id: 'phantomjs@1.9.16',
+362 silly resolved     _shasum: '989256190c00f987fc96b7067bdb5cd2e420bac9',
+362 silly resolved     _from: 'phantomjs@~1.9',
+362 silly resolved     _npmVersion: '2.5.1',
+362 silly resolved     _nodeVersion: '0.12.0',
+362 silly resolved     _npmUser: { name: 'nicks', email: 'nicholas.j.santos@gmail.com' },
+362 silly resolved     dist:
+362 silly resolved      { shasum: '989256190c00f987fc96b7067bdb5cd2e420bac9',
+362 silly resolved        tarball: 'http://registry.npmjs.org/phantomjs/-/phantomjs-1.9.16.tgz' },
+362 silly resolved     directories: {},
+362 silly resolved     _resolved: 'https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.16.tgz',
+362 silly resolved     readme: 'ERROR: No README data found!' } ]
+363 info install phantomjs@1.9.16 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher
+364 info installOne phantomjs@1.9.16
+365 verbose node_modules\karma-phantomjs-launcher\node_modules\phantomjs unbuild
+366 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\phantomjs\1.9.16\package.tgz
+367 silly lockFile e0fd5f09--launcher-node-modules-phantomjs tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher\node_modules\phantomjs
+368 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher\node_modules\phantomjs C:\Users\e.kyorova\AppData\Roaming\npm-cache\e0fd5f09--launcher-node-modules-phantomjs.lock
+369 silly lockFile 86bde11d-che-phantomjs-1-9-16-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\phantomjs\1.9.16\package.tgz
+370 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\phantomjs\1.9.16\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\86bde11d-che-phantomjs-1-9-16-package-tgz.lock
+371 silly gunzTarPerm modes [ '777', '666' ]
+372 http 304 https://registry.npmjs.org/karma
+373 silly registry.get cb [ 304,
+373 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+373 silly registry.get     server: 'Apache',
+373 silly registry.get     via: '1.1 varnish',
+373 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:01:00 GMT',
+373 silly registry.get     'cache-control': 'max-age=60',
+373 silly registry.get     etag: '"2MJ5NJHLESOEDIAZ5IULLE8Z4"',
+373 silly registry.get     age: '21',
+373 silly registry.get     'x-served-by': 'cache-ams4127-AMS',
+373 silly registry.get     'x-cache': 'HIT',
+373 silly registry.get     'x-cache-hits': '1',
+373 silly registry.get     'x-timer': 'S1427097660.034910,VS0,VE3',
+373 silly registry.get     vary: 'Accept',
+373 silly registry.get     'content-length': '0',
+373 silly registry.get     'keep-alive': 'timeout=10, max=50',
+373 silly registry.get     connection: 'Keep-Alive' } ]
+374 verbose etag https://registry.npmjs.org/karma from cache
+375 silly addNameRange number 2 { name: 'karma', range: '>=0.9.0-0', hasData: true }
+376 silly addNameRange versions [ 'karma',
+376 silly addNameRange   [ '0.8.0',
+376 silly addNameRange     '0.9.0-dart',
+376 silly addNameRange     '0.8.1',
+376 silly addNameRange     '0.8.2',
+376 silly addNameRange     '0.8.3',
+376 silly addNameRange     '0.9.0',
+376 silly addNameRange     '0.8.4',
+376 silly addNameRange     '0.9.1',
+376 silly addNameRange     '0.8.5',
+376 silly addNameRange     '0.9.2',
+376 silly addNameRange     '0.9.2-dart',
+376 silly addNameRange     '0.9.3',
+376 silly addNameRange     '0.8.6',
+376 silly addNameRange     '0.9.4',
+376 silly addNameRange     '0.8.7',
+376 silly addNameRange     '0.9.5',
+376 silly addNameRange     '0.9.6',
+376 silly addNameRange     '0.8.8',
+376 silly addNameRange     '0.9.7',
+376 silly addNameRange     '0.9.8',
+376 silly addNameRange     '0.10.0',
+376 silly addNameRange     '0.10.1',
+376 silly addNameRange     '0.10.2',
+376 silly addNameRange     '0.11.0',
+376 silly addNameRange     '0.11.1',
+376 silly addNameRange     '0.10.3',
+376 silly addNameRange     '0.10.4',
+376 silly addNameRange     '0.11.2',
+376 silly addNameRange     '0.11.3',
+376 silly addNameRange     '0.10.5',
+376 silly addNameRange     '0.11.4',
+376 silly addNameRange     '0.11.5',
+376 silly addNameRange     '0.10.6',
+376 silly addNameRange     '0.11.6',
+376 silly addNameRange     '0.10.7',
+376 silly addNameRange     '0.11.7',
+376 silly addNameRange     '0.11.8',
+376 silly addNameRange     '0.11.9',
+376 silly addNameRange     '0.10.8',
+376 silly addNameRange     '0.11.10',
+376 silly addNameRange     '0.11.11',
+376 silly addNameRange     '0.11.12',
+376 silly addNameRange     '0.11.11-dev',
+376 silly addNameRange     '0.10.9',
+376 silly addNameRange     '0.11.12-dev',
+376 silly addNameRange     '0.11.12-dev2',
+376 silly addNameRange     '0.11.13',
+376 silly addNameRange     '0.11.14',
+376 silly addNameRange     '0.12.0',
+376 silly addNameRange     '0.10.10',
+376 silly addNameRange     '0.12.1',
+376 silly addNameRange     '0.12.2',
+376 silly addNameRange     '0.12.3',
+376 silly addNameRange     '0.12.4',
+376 silly addNameRange     '0.12.5',
+376 silly addNameRange     '0.12.6',
+376 silly addNameRange     '0.12.6-beta-43e6e28',
+376 silly addNameRange     '0.12.7',
+376 silly addNameRange     '0.12.8',
+376 silly addNameRange     '0.12.9',
+376 silly addNameRange     '0.12.10',
+376 silly addNameRange     '0.12.11',
+376 silly addNameRange     '0.12.12',
+376 silly addNameRange     '0.12.11-beta-3029418',
+376 silly addNameRange     '0.12.13',
+376 silly addNameRange     '0.12.14',
+376 silly addNameRange     '0.12.15',
+376 silly addNameRange     '0.12.16',
+376 silly addNameRange     '0.12.16-beta-905422d',
+376 silly addNameRange     '0.12.17',
+376 silly addNameRange     '0.12.18',
+376 silly addNameRange     '0.12.19',
+376 silly addNameRange     '0.12.20',
+376 silly addNameRange     '0.12.21',
+376 silly addNameRange     '0.12.22',
+376 silly addNameRange     '0.12.23',
+376 silly addNameRange     '0.12.24',
+376 silly addNameRange     '0.12.24-beta-6cf7955',
+376 silly addNameRange     '0.12.25',
+376 silly addNameRange     '0.12.25-beta-37a7958',
+376 silly addNameRange     '0.12.25-beta-ad5bc24',
+376 silly addNameRange     '0.12.26',
+376 silly addNameRange     '0.12.27',
+376 silly addNameRange     '0.12.28',
+376 silly addNameRange     '0.12.28-beta-b9be580',
+376 silly addNameRange     '0.12.29',
+376 silly addNameRange     '0.12.30',
+376 silly addNameRange     '0.12.31',
+376 silly addNameRange     '0.12.28-beta-f65c864',
+376 silly addNameRange     '0.12.24-dev-test',
+376 silly addNameRange     '0.12.24-dev-socketio10',
+376 silly addNameRange     '0.12.24-dev-socketio10-2',
+376 silly addNameRange     '0.12.32-beta.0',
+376 silly addNameRange     '0.12.32' ] ]
+377 verbose addNamed [ 'karma', '0.12.31' ]
+378 verbose addNamed [ '0.12.31', '0.12.31' ]
+379 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+380 verbose lock karma@0.12.31 C:\Users\e.kyorova\AppData\Roaming\npm-cache\feea9de1-karma-0-12-31.lock
+381 silly gunzTarPerm extractEntry package.json
+382 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+383 silly gunzTarPerm extractEntry .npmignore
+384 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+385 silly gunzTarPerm extractEntry README.md
+386 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+387 silly gunzTarPerm extractEntry install.js
+388 silly gunzTarPerm modified mode [ 'install.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry LICENSE.txt
+390 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+391 silly gunzTarPerm extractEntry bin/phantomjs
+392 silly gunzTarPerm modified mode [ 'bin/phantomjs', 493, 511 ]
+393 silly gunzTarPerm extractEntry .jshintrc
+394 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+395 silly gunzTarPerm extractEntry lib/phantomjs.js
+396 silly gunzTarPerm modified mode [ 'lib/phantomjs.js', 420, 438 ]
+397 silly gunzTarPerm extractEntry test/exit.js
+398 silly gunzTarPerm modified mode [ 'test/exit.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry test/loadspeed.js
+400 silly gunzTarPerm modified mode [ 'test/loadspeed.js', 420, 438 ]
+401 silly gunzTarPerm extractEntry test/tests.js
+402 silly gunzTarPerm modified mode [ 'test/tests.js', 420, 438 ]
+403 silly gunzTarPerm extractEntry .travis.yml
+404 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+405 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+406 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+407 silly lockFile 0ddc6e0a-karma-0-9 karma@>=0.9
+408 silly lockFile 0ddc6e0a-karma-0-9 karma@>=0.9
+409 silly resolved [ { name: 'jasmine-core',
+409 silly resolved     license: 'MIT',
+409 silly resolved     version: '2.2.0',
+409 silly resolved     repository: { type: 'git', url: 'https://github.com/jasmine/jasmine.git' },
+409 silly resolved     description: 'Official packaging of Jasmine\'s core files for use by Node.js projects.',
+409 silly resolved     homepage: 'http://jasmine.github.io',
+409 silly resolved     main: './lib/jasmine-core.js',
+409 silly resolved     devDependencies:
+409 silly resolved      { grunt: '~0.4.1',
+409 silly resolved        'grunt-contrib-jshint': '~0.7.0',
+409 silly resolved        'grunt-contrib-concat': '~0.3.0',
+409 silly resolved        'grunt-contrib-compass': '~0.6.0',
+409 silly resolved        'grunt-contrib-compress': '~0.5.2',
+409 silly resolved        shelljs: '~0.1.4',
+409 silly resolved        glob: '~3.2.9',
+409 silly resolved        jasmine: 'https://github.com/jasmine/jasmine-npm/archive/master.tar.gz',
+409 silly resolved        'load-grunt-tasks': '^0.4.0' },
+409 silly resolved     gitHead: '4acb7448d866698128eaa9bb5c89d027ac24f434',
+409 silly resolved     bugs: { url: 'https://github.com/jasmine/jasmine/issues' },
+409 silly resolved     _id: 'jasmine-core@2.2.0',
+409 silly resolved     scripts: {},
+409 silly resolved     _shasum: 'fe70b27092966256e556409e37ccde85658641da',
+409 silly resolved     _from: 'jasmine-core@*',
+409 silly resolved     _npmVersion: '1.4.13',
+409 silly resolved     _npmUser: { name: 'slackersoft', email: 'gregg@slackersoft.net' },
+409 silly resolved     maintainers: [ [Object], [Object] ],
+409 silly resolved     dist:
+409 silly resolved      { shasum: 'fe70b27092966256e556409e37ccde85658641da',
+409 silly resolved        tarball: 'http://registry.npmjs.org/jasmine-core/-/jasmine-core-2.2.0.tgz' },
+409 silly resolved     directories: {},
+409 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine-core/-/jasmine-core-2.2.0.tgz',
+409 silly resolved     readme: 'ERROR: No README data found!' },
+409 silly resolved   { name: 'karma',
+409 silly resolved     description: 'Spectacular Test Runner for JavaScript.',
+409 silly resolved     homepage: 'http://karma-runner.github.io/',
+409 silly resolved     repository: { type: 'git', url: 'git://github.com/karma-runner/karma.git' },
+409 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma/issues' },
+409 silly resolved     keywords:
+409 silly resolved      [ 'karma',
+409 silly resolved        'spectacular',
+409 silly resolved        'runner',
+409 silly resolved        'karma',
+409 silly resolved        'js',
+409 silly resolved        'javascript',
+409 silly resolved        'testing',
+409 silly resolved        'test',
+409 silly resolved        'remote',
+409 silly resolved        'execution' ],
+409 silly resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+409 silly resolved     contributors:
+409 silly resolved      [ [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object],
+409 silly resolved        [Object] ],
+409 silly resolved     dependencies:
+409 silly resolved      { di: '~0.0.1',
+409 silly resolved        'socket.io': '0.9.16',
+409 silly resolved        chokidar: '>=0.8.2',
+409 silly resolved        glob: '~3.2.7',
+409 silly resolved        minimatch: '~0.2',
+409 silly resolved        'http-proxy': '~0.10',
+409 silly resolved        optimist: '~0.6.0',
+409 silly resolved        rimraf: '~2.2.5',
+409 silly resolved        q: '~0.9.7',
+409 silly resolved        colors: '~0.6.2',
+409 silly resolved        lodash: '~2.4.1',
+409 silly resolved        mime: '~1.2.11',
+409 silly resolved        log4js: '~0.6.3',
+409 silly resolved        useragent: '~2.0.4',
+409 silly resolved        'graceful-fs': '~2.0.1',
+409 silly resolved        connect: '~2.26.0',
+409 silly resolved        'source-map': '~0.1.31' },
+409 silly resolved     devDependencies:
+409 silly resolved      { grunt: '~0.4',
+409 silly resolved        'grunt-simple-mocha': '*',
+409 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+409 silly resolved        'grunt-contrib-watch': '~0.6.1',
+409 silly resolved        'grunt-coffeelint': '~0.0.6',
+409 silly resolved        'grunt-npm': '~0.0.1',
+409 silly resolved        'grunt-bump': '~0.0.10',
+409 silly resolved        'grunt-conventional-changelog': '~1.1.0',
+409 silly resolved        'grunt-auto-release': '~0.0.3',
+409 silly resolved        'grunt-browserify': '~2.1.3',
+409 silly resolved        'load-grunt-tasks': '~0.6.0',
+409 silly resolved        mocks: '~0.0.10',
+409 silly resolved        which: '~1.0',
+409 silly resolved        mocha: '~1.20.1',
+409 silly resolved        chai: '~1.9.1',
+409 silly resolved        'chai-as-promised': '~4.1.0',
+409 silly resolved        sinon: '~1.10.3',
+409 silly resolved        'sinon-chai': '~2.5.0',
+409 silly resolved        'timer-shim': '~0.3.0',
+409 silly resolved        'karma-jasmine': '~0.1.0',
+409 silly resolved        'karma-mocha': '*',
+409 silly resolved        'karma-qunit': '*',
+409 silly resolved        'karma-coverage': '*',
+409 silly resolved        'karma-requirejs': '*',
+409 silly resolved        'karma-commonjs': '*',
+409 silly resolved        'karma-growl-reporter': '*',
+409 silly resolved        'karma-junit-reporter': '*',
+409 silly resolved        'karma-chrome-launcher': '*',
+409 silly resolved        'karma-firefox-launcher': '*',
+409 silly resolved        'karma-sauce-launcher': '*',
+409 silly resolved        'karma-phantomjs-launcher': '*',
+409 silly resolved        'karma-ng-scenario': '*',
+409 silly resolved        'karma-coffee-preprocessor': '*',
+409 silly resolved        'karma-live-preprocessor': '*',
+409 silly resolved        'karma-html2js-preprocessor': '*',
+409 silly resolved        'karma-browserstack-launcher': '*',
+409 silly resolved        LiveScript: '~1.2.0',
+409 silly resolved        'coffee-errors': '~0.8.6',
+409 silly resolved        'coffee-script': '~1.7.1',
+409 silly resolved        'grunt-jscs-checker': '~0.6.1' },
+409 silly resolved     main: './lib/index',
+409 silly resolved     bin: {},
+409 silly resolved     engines: { node: '~0.8 || ~0.10' },
+409 silly resolved     version: '0.12.31',
+409 silly resolved     license: 'MIT',
+409 silly resolved     gitHead: '6d2e4a7751a04284ce0836eba72cbe844933be9e',
+409 silly resolved     _id: 'karma@0.12.31',
+409 silly resolved     scripts: {},
+409 silly resolved     _shasum: '806aa7c2acb13a39edb9374a7a477e643a5e94c9',
+409 silly resolved     _from: 'karma@>=0.9',
+409 silly resolved     _npmVersion: '2.1.17',
+409 silly resolved     _nodeVersion: '0.10.35',
+409 silly resolved     _npmUser: { name: 'karmarunnerbot', email: 'karmarunnerbot@gmail.com' },
+409 silly resolved     maintainers: [ [Object], [Object] ],
+409 silly resolved     dist:
+409 silly resolved      { shasum: '806aa7c2acb13a39edb9374a7a477e643a5e94c9',
+409 silly resolved        tarball: 'http://registry.npmjs.org/karma/-/karma-0.12.31.tgz' },
+409 silly resolved     directories: {},
+409 silly resolved     _resolved: 'https://registry.npmjs.org/karma/-/karma-0.12.31.tgz',
+409 silly resolved     readme: 'ERROR: No README data found!' } ]
+410 info install jasmine-core@2.2.0 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+411 info install karma@0.12.31 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+412 info installOne jasmine-core@2.2.0
+413 info installOne karma@0.12.31
+414 verbose node_modules\jasmine-core unbuild
+415 verbose node_modules\karma unbuild
+416 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\jasmine-core\2.2.0\package.tgz
+417 silly lockFile f1f4e08c-ing-ui-node-modules-jasmine-core tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\jasmine-core
+418 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\jasmine-core C:\Users\e.kyorova\AppData\Roaming\npm-cache\f1f4e08c-ing-ui-node-modules-jasmine-core.lock
+419 silly lockFile 797c4296-e-jasmine-core-2-2-0-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\jasmine-core\2.2.0\package.tgz
+420 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\jasmine-core\2.2.0\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\797c4296-e-jasmine-core-2-2-0-package-tgz.lock
+421 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma\0.12.31\package.tgz
+422 silly lockFile 028c88b1-ilksharing-ui-node-modules-karma tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma
+423 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma C:\Users\e.kyorova\AppData\Roaming\npm-cache\028c88b1-ilksharing-ui-node-modules-karma.lock
+424 silly lockFile 058a3321--cache-karma-0-12-31-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma\0.12.31\package.tgz
+425 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\karma\0.12.31\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\058a3321--cache-karma-0-12-31-package-tgz.lock
+426 silly gunzTarPerm modes [ '777', '666' ]
+427 silly gunzTarPerm modes [ '777', '666' ]
+428 silly gunzTarPerm extractEntry package.json
+429 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+430 silly gunzTarPerm extractEntry package.json
+431 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+432 silly gunzTarPerm extractEntry .npmignore
+433 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+434 silly gunzTarPerm extractEntry README.md
+435 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+436 silly gunzTarPerm extractEntry README.md
+437 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+438 silly gunzTarPerm extractEntry LICENSE
+439 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+440 silly lockFile e0fd5f09--launcher-node-modules-phantomjs tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher\node_modules\phantomjs
+441 silly lockFile e0fd5f09--launcher-node-modules-phantomjs tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\karma-phantomjs-launcher\node_modules\phantomjs
+442 silly gunzTarPerm extractEntry CONTRIBUTING.md
+443 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+444 silly gunzTarPerm extractEntry GOALS_2.0.md
+445 silly gunzTarPerm modified mode [ 'GOALS_2.0.md', 420, 438 ]
+446 silly lockFile 86bde11d-che-phantomjs-1-9-16-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\phantomjs\1.9.16\package.tgz
+447 silly lockFile 86bde11d-che-phantomjs-1-9-16-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\phantomjs\1.9.16\package.tgz
+448 silly gunzTarPerm extractEntry config.tpl.js
+449 silly gunzTarPerm modified mode [ 'config.tpl.js', 436, 438 ]
+450 silly gunzTarPerm extractEntry requirejs.config.tpl.js
+451 silly gunzTarPerm modified mode [ 'requirejs.config.tpl.js', 436, 438 ]
+452 silly gunzTarPerm extractEntry CHANGELOG.md
+453 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+454 silly gunzTarPerm extractEntry bin/karma
+455 silly gunzTarPerm modified mode [ 'bin/karma', 509, 511 ]
+456 silly gunzTarPerm extractEntry config.tpl.coffee
+457 silly gunzTarPerm modified mode [ 'config.tpl.coffee', 436, 438 ]
+458 silly gunzTarPerm extractEntry config.tpl.ls
+459 silly gunzTarPerm modified mode [ 'config.tpl.ls', 436, 438 ]
+460 silly gunzTarPerm extractEntry karma-completion.sh
+461 silly gunzTarPerm modified mode [ 'karma-completion.sh', 436, 438 ]
+462 silly gunzTarPerm extractEntry lib/browser.js
+463 silly gunzTarPerm modified mode [ 'lib/browser.js', 436, 438 ]
+464 silly gunzTarPerm extractEntry lib/events.js
+465 silly gunzTarPerm modified mode [ 'lib/events.js', 436, 438 ]
+466 silly gunzTarPerm extractEntry lib/executor.js
+467 silly gunzTarPerm modified mode [ 'lib/executor.js', 436, 438 ]
+468 silly gunzTarPerm extractEntry lib/file_list.js
+469 silly gunzTarPerm modified mode [ 'lib/file_list.js', 436, 438 ]
+470 silly gunzTarPerm extractEntry lib/helper.js
+471 silly gunzTarPerm modified mode [ 'lib/helper.js', 436, 438 ]
+472 silly gunzTarPerm extractEntry lib/emitter_wrapper.js
+473 silly gunzTarPerm modified mode [ 'lib/emitter_wrapper.js', 436, 438 ]
+474 silly gunzTarPerm extractEntry lib/watcher.js
+475 silly gunzTarPerm modified mode [ 'lib/watcher.js', 436, 438 ]
+476 silly gunzTarPerm extractEntry lib/browser_collection.js
+477 silly gunzTarPerm modified mode [ 'lib/browser_collection.js', 436, 438 ]
+478 silly gunzTarPerm extractEntry lib/launcher.js
+479 silly gunzTarPerm modified mode [ 'lib/launcher.js', 436, 438 ]
+480 silly gunzTarPerm extractEntry lib/temp_dir.js
+481 silly gunzTarPerm modified mode [ 'lib/temp_dir.js', 436, 438 ]
+482 silly gunzTarPerm extractEntry lib/logger.js
+483 silly gunzTarPerm modified mode [ 'lib/logger.js', 436, 438 ]
+484 silly gunzTarPerm extractEntry lib/constants.js
+485 silly gunzTarPerm modified mode [ 'lib/constants.js', 436, 438 ]
+486 silly gunzTarPerm extractEntry lib/server.js
+487 silly gunzTarPerm modified mode [ 'lib/server.js', 436, 438 ]
+488 silly gunzTarPerm extractEntry lib/config.js
+489 silly gunzTarPerm modified mode [ 'lib/config.js', 436, 438 ]
+490 silly gunzTarPerm extractEntry lib/plugin.js
+491 silly gunzTarPerm modified mode [ 'lib/plugin.js', 436, 438 ]
+492 silly gunzTarPerm extractEntry lib/completion.js
+493 silly gunzTarPerm modified mode [ 'lib/completion.js', 436, 438 ]
+494 silly gunzTarPerm extractEntry lib/preprocessor.js
+495 silly gunzTarPerm modified mode [ 'lib/preprocessor.js', 436, 438 ]
+496 silly gunzTarPerm extractEntry lib/cli.js
+497 silly gunzTarPerm modified mode [ 'lib/cli.js', 436, 438 ]
+498 silly gunzTarPerm extractEntry lib/reporter.js
+499 silly gunzTarPerm modified mode [ 'lib/reporter.js', 436, 438 ]
+500 silly gunzTarPerm extractEntry lib/browser_result.js
+501 silly gunzTarPerm modified mode [ 'lib/browser_result.js', 436, 438 ]
+502 silly gunzTarPerm extractEntry lib/runner.js
+503 silly gunzTarPerm modified mode [ 'lib/runner.js', 436, 438 ]
+504 silly gunzTarPerm extractEntry lib/index.js
+505 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 438 ]
+506 silly gunzTarPerm extractEntry lib/web-server.js
+507 silly gunzTarPerm modified mode [ 'lib/web-server.js', 436, 438 ]
+508 silly gunzTarPerm extractEntry lib/init.js
+509 silly gunzTarPerm modified mode [ 'lib/init.js', 509, 511 ]
+510 silly gunzTarPerm extractEntry lib/reporters/base.js
+511 silly gunzTarPerm modified mode [ 'lib/reporters/base.js', 436, 438 ]
+512 silly gunzTarPerm extractEntry lib/reporters/base_color.js
+513 silly gunzTarPerm modified mode [ 'lib/reporters/base_color.js', 436, 438 ]
+514 silly gunzTarPerm extractEntry lib/reporters/dots.js
+515 silly gunzTarPerm modified mode [ 'lib/reporters/dots.js', 436, 438 ]
+516 silly gunzTarPerm extractEntry lib/reporters/dots_color.js
+517 silly gunzTarPerm modified mode [ 'lib/reporters/dots_color.js', 436, 438 ]
+518 silly gunzTarPerm extractEntry lib/reporters/multi.js
+519 silly gunzTarPerm modified mode [ 'lib/reporters/multi.js', 436, 438 ]
+520 silly gunzTarPerm extractEntry lib/reporters/progress.js
+521 silly gunzTarPerm modified mode [ 'lib/reporters/progress.js', 436, 438 ]
+522 silly gunzTarPerm extractEntry lib/reporters/progress_color.js
+523 silly gunzTarPerm modified mode [ 'lib/reporters/progress_color.js', 436, 438 ]
+524 silly gunzTarPerm extractEntry lib/middleware/common.js
+525 silly gunzTarPerm modified mode [ 'lib/middleware/common.js', 436, 438 ]
+526 silly gunzTarPerm extractEntry lib/middleware/karma.js
+527 silly gunzTarPerm modified mode [ 'lib/middleware/karma.js', 436, 438 ]
+528 silly gunzTarPerm extractEntry lib/middleware/proxy.js
+529 silly gunzTarPerm modified mode [ 'lib/middleware/proxy.js', 436, 438 ]
+530 silly gunzTarPerm extractEntry lib/middleware/runner.js
+531 silly gunzTarPerm modified mode [ 'lib/middleware/runner.js', 436, 438 ]
+532 silly gunzTarPerm extractEntry lib/middleware/source_files.js
+533 silly gunzTarPerm modified mode [ 'lib/middleware/source_files.js', 436, 438 ]
+534 silly gunzTarPerm extractEntry lib/middleware/strip_host.js
+535 silly gunzTarPerm modified mode [ 'lib/middleware/strip_host.js', 436, 438 ]
+536 silly gunzTarPerm extractEntry lib/launchers/base.js
+537 silly gunzTarPerm modified mode [ 'lib/launchers/base.js', 436, 438 ]
+538 silly gunzTarPerm extractEntry lib/launchers/capture_timeout.js
+539 silly gunzTarPerm modified mode [ 'lib/launchers/capture_timeout.js', 436, 438 ]
+540 silly gunzTarPerm extractEntry lib/launchers/process.js
+541 silly gunzTarPerm modified mode [ 'lib/launchers/process.js', 436, 438 ]
+542 silly gunzTarPerm extractEntry lib/launchers/retry.js
+543 silly gunzTarPerm modified mode [ 'lib/launchers/retry.js', 436, 438 ]
+544 silly gunzTarPerm extractEntry lib/init/color_schemes.js
+545 silly gunzTarPerm modified mode [ 'lib/init/color_schemes.js', 436, 438 ]
+546 silly gunzTarPerm extractEntry lib/init/formatters.js
+547 silly gunzTarPerm modified mode [ 'lib/init/formatters.js', 436, 438 ]
+548 silly gunzTarPerm extractEntry lib/init/state_machine.js
+549 silly gunzTarPerm modified mode [ 'lib/init/state_machine.js', 436, 438 ]
+550 silly gunzTarPerm extractEntry requirejs.config.tpl.coffee
+551 silly gunzTarPerm modified mode [ 'requirejs.config.tpl.coffee', 436, 438 ]
+552 silly gunzTarPerm extractEntry static/karma.js
+553 silly gunzTarPerm modified mode [ 'static/karma.js', 436, 438 ]
+554 silly gunzTarPerm extractEntry static/client.html
+555 silly gunzTarPerm modified mode [ 'static/client.html', 436, 438 ]
+556 silly gunzTarPerm extractEntry static/context.html
+557 silly gunzTarPerm modified mode [ 'static/context.html', 436, 438 ]
+558 silly gunzTarPerm extractEntry static/debug.html
+559 silly gunzTarPerm modified mode [ 'static/debug.html', 436, 438 ]
+560 silly gunzTarPerm extractEntry MANIFEST.in
+561 silly gunzTarPerm modified mode [ 'MANIFEST.in', 420, 438 ]
+562 info preinstall phantomjs@1.9.16
+563 verbose readDependencies using package.json deps
+564 verbose readDependencies using package.json deps
+565 silly lockFile 2bfc118d--grunt-karma-node-modules-lodash tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma\node_modules\lodash
+566 silly lockFile 2bfc118d--grunt-karma-node-modules-lodash tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma\node_modules\lodash
+567 silly lockFile fbd6b337-m-cache-lodash-2-4-1-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+568 silly lockFile fbd6b337-m-cache-lodash-2-4-1-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+569 silly gunzTarPerm extractEntry MIT.LICENSE
+570 silly gunzTarPerm modified mode [ 'MIT.LICENSE', 420, 438 ]
+571 silly gunzTarPerm extractEntry RELEASE.md
+572 silly gunzTarPerm modified mode [ 'RELEASE.md', 420, 438 ]
+573 info preinstall lodash@2.4.1
+574 verbose readDependencies using package.json deps
+575 verbose readDependencies using package.json deps
+576 silly resolved []
+577 verbose about to build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma\node_modules\lodash
+578 info build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma\node_modules\lodash
+579 verbose linkStuff [ false,
+579 verbose linkStuff   false,
+579 verbose linkStuff   false,
+579 verbose linkStuff   'C:\\Users\\e.kyorova\\breastmilksharing\\breastmilksharing\\breatmilksharing-ui\\node_modules\\grunt-karma\\node_modules' ]
+580 info linkStuff lodash@2.4.1
+581 verbose linkBins lodash@2.4.1
+582 verbose linkMans lodash@2.4.1
+583 verbose rebuildBundles lodash@2.4.1
+584 info install lodash@2.4.1
+585 info postinstall lodash@2.4.1
+586 verbose cache add [ 'adm-zip@0.4.4', null ]
+587 verbose cache add name=undefined spec="adm-zip@0.4.4" args=["adm-zip@0.4.4",null]
+588 verbose parsed url { protocol: null,
+588 verbose parsed url   slashes: null,
+588 verbose parsed url   auth: null,
+588 verbose parsed url   host: null,
+588 verbose parsed url   port: null,
+588 verbose parsed url   hostname: null,
+588 verbose parsed url   hash: null,
+588 verbose parsed url   search: null,
+588 verbose parsed url   query: null,
+588 verbose parsed url   pathname: 'adm-zip@0.4.4',
+588 verbose parsed url   path: 'adm-zip@0.4.4',
+588 verbose parsed url   href: 'adm-zip@0.4.4' }
+589 verbose cache add [ 'fs-extra@~0.16.0', null ]
+590 verbose cache add name=undefined spec="fs-extra@~0.16.0" args=["fs-extra@~0.16.0",null]
+591 verbose parsed url { protocol: null,
+591 verbose parsed url   slashes: null,
+591 verbose parsed url   auth: null,
+591 verbose parsed url   host: null,
+591 verbose parsed url   port: null,
+591 verbose parsed url   hostname: null,
+591 verbose parsed url   hash: null,
+591 verbose parsed url   search: null,
+591 verbose parsed url   query: null,
+591 verbose parsed url   pathname: 'fs-extra@~0.16.0',
+591 verbose parsed url   path: 'fs-extra@~0.16.0',
+591 verbose parsed url   href: 'fs-extra@~0.16.0' }
+592 verbose cache add [ 'kew@0.4.0', null ]
+593 verbose cache add name=undefined spec="kew@0.4.0" args=["kew@0.4.0",null]
+594 verbose parsed url { protocol: null,
+594 verbose parsed url   slashes: null,
+594 verbose parsed url   auth: null,
+594 verbose parsed url   host: null,
+594 verbose parsed url   port: null,
+594 verbose parsed url   hostname: null,
+594 verbose parsed url   hash: null,
+594 verbose parsed url   search: null,
+594 verbose parsed url   query: null,
+594 verbose parsed url   pathname: 'kew@0.4.0',
+594 verbose parsed url   path: 'kew@0.4.0',
+594 verbose parsed url   href: 'kew@0.4.0' }
+595 verbose cache add [ 'npmconf@2.1.1', null ]
+596 verbose cache add name=undefined spec="npmconf@2.1.1" args=["npmconf@2.1.1",null]
+597 verbose parsed url { protocol: null,
+597 verbose parsed url   slashes: null,
+597 verbose parsed url   auth: null,
+597 verbose parsed url   host: null,
+597 verbose parsed url   port: null,
+597 verbose parsed url   hostname: null,
+597 verbose parsed url   hash: null,
+597 verbose parsed url   search: null,
+597 verbose parsed url   query: null,
+597 verbose parsed url   pathname: 'npmconf@2.1.1',
+597 verbose parsed url   path: 'npmconf@2.1.1',
+597 verbose parsed url   href: 'npmconf@2.1.1' }
+598 verbose cache add [ 'progress@1.1.8', null ]
+599 verbose cache add name=undefined spec="progress@1.1.8" args=["progress@1.1.8",null]
+600 verbose parsed url { protocol: null,
+600 verbose parsed url   slashes: null,
+600 verbose parsed url   auth: null,
+600 verbose parsed url   host: null,
+600 verbose parsed url   port: null,
+600 verbose parsed url   hostname: null,
+600 verbose parsed url   hash: null,
+600 verbose parsed url   search: null,
+600 verbose parsed url   query: null,
+600 verbose parsed url   pathname: 'progress@1.1.8',
+600 verbose parsed url   path: 'progress@1.1.8',
+600 verbose parsed url   href: 'progress@1.1.8' }
+601 verbose cache add [ 'request@2.42.0', null ]
+602 verbose cache add name=undefined spec="request@2.42.0" args=["request@2.42.0",null]
+603 verbose parsed url { protocol: null,
+603 verbose parsed url   slashes: null,
+603 verbose parsed url   auth: null,
+603 verbose parsed url   host: null,
+603 verbose parsed url   port: null,
+603 verbose parsed url   hostname: null,
+603 verbose parsed url   hash: null,
+603 verbose parsed url   search: null,
+603 verbose parsed url   query: null,
+603 verbose parsed url   pathname: 'request@2.42.0',
+603 verbose parsed url   path: 'request@2.42.0',
+603 verbose parsed url   href: 'request@2.42.0' }
+604 verbose cache add [ 'request-progress@0.3.1', null ]
+605 verbose cache add name=undefined spec="request-progress@0.3.1" args=["request-progress@0.3.1",null]
+606 verbose parsed url { protocol: null,
+606 verbose parsed url   slashes: null,
+606 verbose parsed url   auth: null,
+606 verbose parsed url   host: null,
+606 verbose parsed url   port: null,
+606 verbose parsed url   hostname: null,
+606 verbose parsed url   hash: null,
+606 verbose parsed url   search: null,
+606 verbose parsed url   query: null,
+606 verbose parsed url   pathname: 'request-progress@0.3.1',
+606 verbose parsed url   path: 'request-progress@0.3.1',
+606 verbose parsed url   href: 'request-progress@0.3.1' }
+607 verbose cache add [ 'which@~1.0.5', null ]
+608 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+609 verbose parsed url { protocol: null,
+609 verbose parsed url   slashes: null,
+609 verbose parsed url   auth: null,
+609 verbose parsed url   host: null,
+609 verbose parsed url   port: null,
+609 verbose parsed url   hostname: null,
+609 verbose parsed url   hash: null,
+609 verbose parsed url   search: null,
+609 verbose parsed url   query: null,
+609 verbose parsed url   pathname: 'which@~1.0.5',
+609 verbose parsed url   path: 'which@~1.0.5',
+609 verbose parsed url   href: 'which@~1.0.5' }
+610 verbose about to build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma
+611 info build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt-karma
+612 verbose linkStuff [ false,
+612 verbose linkStuff   false,
+612 verbose linkStuff   false,
+612 verbose linkStuff   'C:\\Users\\e.kyorova\\breastmilksharing\\breastmilksharing\\breatmilksharing-ui\\node_modules' ]
+613 info linkStuff grunt-karma@0.10.1
+614 verbose linkBins grunt-karma@0.10.1
+615 verbose linkMans grunt-karma@0.10.1
+616 verbose rebuildBundles grunt-karma@0.10.1
+617 verbose cache add name="adm-zip" spec="0.4.4" args=["adm-zip","0.4.4"]
+618 verbose parsed url { protocol: null,
+618 verbose parsed url   slashes: null,
+618 verbose parsed url   auth: null,
+618 verbose parsed url   host: null,
+618 verbose parsed url   port: null,
+618 verbose parsed url   hostname: null,
+618 verbose parsed url   hash: null,
+618 verbose parsed url   search: null,
+618 verbose parsed url   query: null,
+618 verbose parsed url   pathname: '0.4.4',
+618 verbose parsed url   path: '0.4.4',
+618 verbose parsed url   href: '0.4.4' }
+619 verbose addNamed [ 'adm-zip', '0.4.4' ]
+620 verbose addNamed [ '0.4.4', '0.4.4' ]
+621 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+622 verbose lock adm-zip@0.4.4 C:\Users\e.kyorova\AppData\Roaming\npm-cache\54f7ada5-adm-zip-0-4-4.lock
+623 verbose cache add name="fs-extra" spec="~0.16.0" args=["fs-extra","~0.16.0"]
+624 verbose parsed url { protocol: null,
+624 verbose parsed url   slashes: null,
+624 verbose parsed url   auth: null,
+624 verbose parsed url   host: null,
+624 verbose parsed url   port: null,
+624 verbose parsed url   hostname: null,
+624 verbose parsed url   hash: null,
+624 verbose parsed url   search: null,
+624 verbose parsed url   query: null,
+624 verbose parsed url   pathname: '~0.16.0',
+624 verbose parsed url   path: '~0.16.0',
+624 verbose parsed url   href: '~0.16.0' }
+625 verbose addNamed [ 'fs-extra', '~0.16.0' ]
+626 verbose addNamed [ null, '>=0.16.0-0 <0.17.0-0' ]
+627 silly lockFile 45095fa4-fs-extra-0-16-0 fs-extra@~0.16.0
+628 verbose lock fs-extra@~0.16.0 C:\Users\e.kyorova\AppData\Roaming\npm-cache\45095fa4-fs-extra-0-16-0.lock
+629 verbose cache add name="kew" spec="0.4.0" args=["kew","0.4.0"]
+630 verbose parsed url { protocol: null,
+630 verbose parsed url   slashes: null,
+630 verbose parsed url   auth: null,
+630 verbose parsed url   host: null,
+630 verbose parsed url   port: null,
+630 verbose parsed url   hostname: null,
+630 verbose parsed url   hash: null,
+630 verbose parsed url   search: null,
+630 verbose parsed url   query: null,
+630 verbose parsed url   pathname: '0.4.0',
+630 verbose parsed url   path: '0.4.0',
+630 verbose parsed url   href: '0.4.0' }
+631 verbose addNamed [ 'kew', '0.4.0' ]
+632 verbose addNamed [ '0.4.0', '0.4.0' ]
+633 silly lockFile d7f05391-kew-0-4-0 kew@0.4.0
+634 verbose lock kew@0.4.0 C:\Users\e.kyorova\AppData\Roaming\npm-cache\d7f05391-kew-0-4-0.lock
+635 verbose cache add name="npmconf" spec="2.1.1" args=["npmconf","2.1.1"]
+636 verbose parsed url { protocol: null,
+636 verbose parsed url   slashes: null,
+636 verbose parsed url   auth: null,
+636 verbose parsed url   host: null,
+636 verbose parsed url   port: null,
+636 verbose parsed url   hostname: null,
+636 verbose parsed url   hash: null,
+636 verbose parsed url   search: null,
+636 verbose parsed url   query: null,
+636 verbose parsed url   pathname: '2.1.1',
+636 verbose parsed url   path: '2.1.1',
+636 verbose parsed url   href: '2.1.1' }
+637 verbose addNamed [ 'npmconf', '2.1.1' ]
+638 verbose addNamed [ '2.1.1', '2.1.1' ]
+639 silly lockFile 35a7b1a6-npmconf-2-1-1 npmconf@2.1.1
+640 verbose lock npmconf@2.1.1 C:\Users\e.kyorova\AppData\Roaming\npm-cache\35a7b1a6-npmconf-2-1-1.lock
+641 verbose cache add name="progress" spec="1.1.8" args=["progress","1.1.8"]
+642 verbose parsed url { protocol: null,
+642 verbose parsed url   slashes: null,
+642 verbose parsed url   auth: null,
+642 verbose parsed url   host: null,
+642 verbose parsed url   port: null,
+642 verbose parsed url   hostname: null,
+642 verbose parsed url   hash: null,
+642 verbose parsed url   search: null,
+642 verbose parsed url   query: null,
+642 verbose parsed url   pathname: '1.1.8',
+642 verbose parsed url   path: '1.1.8',
+642 verbose parsed url   href: '1.1.8' }
+643 verbose addNamed [ 'progress', '1.1.8' ]
+644 verbose addNamed [ '1.1.8', '1.1.8' ]
+645 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+646 verbose lock progress@1.1.8 C:\Users\e.kyorova\AppData\Roaming\npm-cache\caa8d10f-progress-1-1-8.lock
+647 verbose cache add name="request" spec="2.42.0" args=["request","2.42.0"]
+648 verbose parsed url { protocol: null,
+648 verbose parsed url   slashes: null,
+648 verbose parsed url   auth: null,
+648 verbose parsed url   host: null,
+648 verbose parsed url   port: null,
+648 verbose parsed url   hostname: null,
+648 verbose parsed url   hash: null,
+648 verbose parsed url   search: null,
+648 verbose parsed url   query: null,
+648 verbose parsed url   pathname: '2.42.0',
+648 verbose parsed url   path: '2.42.0',
+648 verbose parsed url   href: '2.42.0' }
+649 verbose addNamed [ 'request', '2.42.0' ]
+650 verbose addNamed [ '2.42.0', '2.42.0' ]
+651 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+652 verbose lock request@2.42.0 C:\Users\e.kyorova\AppData\Roaming\npm-cache\6619e4b4-request-2-42-0.lock
+653 verbose cache add name="request-progress" spec="0.3.1" args=["request-progress","0.3.1"]
+654 verbose parsed url { protocol: null,
+654 verbose parsed url   slashes: null,
+654 verbose parsed url   auth: null,
+654 verbose parsed url   host: null,
+654 verbose parsed url   port: null,
+654 verbose parsed url   hostname: null,
+654 verbose parsed url   hash: null,
+654 verbose parsed url   search: null,
+654 verbose parsed url   query: null,
+654 verbose parsed url   pathname: '0.3.1',
+654 verbose parsed url   path: '0.3.1',
+654 verbose parsed url   href: '0.3.1' }
+655 verbose addNamed [ 'request-progress', '0.3.1' ]
+656 verbose addNamed [ '0.3.1', '0.3.1' ]
+657 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+658 verbose lock request-progress@0.3.1 C:\Users\e.kyorova\AppData\Roaming\npm-cache\a2b190cd-request-progress-0-3-1.lock
+659 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+660 verbose parsed url { protocol: null,
+660 verbose parsed url   slashes: null,
+660 verbose parsed url   auth: null,
+660 verbose parsed url   host: null,
+660 verbose parsed url   port: null,
+660 verbose parsed url   hostname: null,
+660 verbose parsed url   hash: null,
+660 verbose parsed url   search: null,
+660 verbose parsed url   query: null,
+660 verbose parsed url   pathname: '~1.0.5',
+660 verbose parsed url   path: '~1.0.5',
+660 verbose parsed url   href: '~1.0.5' }
+661 verbose addNamed [ 'which', '~1.0.5' ]
+662 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+663 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+664 verbose lock which@~1.0.5 C:\Users\e.kyorova\AppData\Roaming\npm-cache\d158d65e-which-1-0-5.lock
+665 silly gunzTarPerm extractEntry bower.json
+666 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+667 silly gunzTarPerm extractEntry .ruby-version
+668 silly gunzTarPerm modified mode [ '.ruby-version', 420, 438 ]
+669 verbose rebuildBundles [ 'lodash' ]
+670 info install grunt-karma@0.10.1
+671 silly addNameRange { name: 'fs-extra',
+671 silly addNameRange   range: '>=0.16.0-0 <0.17.0-0',
+671 silly addNameRange   hasData: false }
+672 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+673 info postinstall grunt-karma@0.10.1
+674 verbose readDependencies using package.json deps
+675 verbose request where is /adm-zip
+676 verbose request registry https://registry.npmjs.org/
+677 verbose url raw /adm-zip
+678 verbose url resolving [ 'https://registry.npmjs.org/', './adm-zip' ]
+679 verbose url resolved https://registry.npmjs.org/adm-zip
+680 verbose request where is https://registry.npmjs.org/adm-zip
+681 info trying registry request attempt 1 at 10:01:05
+682 verbose etag "2H5Y5LKVC8HSDVK7VKXIX80NM"
+683 http GET https://registry.npmjs.org/adm-zip
+684 verbose request where is /npmconf
+685 verbose request registry https://registry.npmjs.org/
+686 verbose url raw /npmconf
+687 verbose url resolving [ 'https://registry.npmjs.org/', './npmconf' ]
+688 verbose url resolved https://registry.npmjs.org/npmconf
+689 verbose request where is https://registry.npmjs.org/npmconf
+690 info trying registry request attempt 1 at 10:01:05
+691 verbose etag "BIMZ2D65K180LLQ9AUTWNT859"
+692 http GET https://registry.npmjs.org/npmconf
+693 verbose request where is /request-progress
+694 verbose request registry https://registry.npmjs.org/
+695 verbose url raw /request-progress
+696 verbose url resolving [ 'https://registry.npmjs.org/', './request-progress' ]
+697 verbose url resolved https://registry.npmjs.org/request-progress
+698 verbose request where is https://registry.npmjs.org/request-progress
+699 info trying registry request attempt 1 at 10:01:05
+700 verbose etag "71N141LK7KK976NSQYTGUGVOR"
+701 http GET https://registry.npmjs.org/request-progress
+702 verbose request where is /request
+703 verbose request registry https://registry.npmjs.org/
+704 verbose url raw /request
+705 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+706 verbose url resolved https://registry.npmjs.org/request
+707 verbose request where is https://registry.npmjs.org/request
+708 info trying registry request attempt 1 at 10:01:05
+709 verbose etag "18XMAACKDUYS7AEGZXODVWZHI"
+710 http GET https://registry.npmjs.org/request
+711 verbose request where is /which
+712 verbose request registry https://registry.npmjs.org/
+713 verbose url raw /which
+714 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+715 verbose url resolved https://registry.npmjs.org/which
+716 verbose request where is https://registry.npmjs.org/which
+717 info trying registry request attempt 1 at 10:01:05
+718 verbose etag "ACJ1YRITE4VMV6GP70B3VUUQO"
+719 http GET https://registry.npmjs.org/which
+720 verbose request where is /kew
+721 verbose request registry https://registry.npmjs.org/
+722 verbose url raw /kew
+723 verbose url resolving [ 'https://registry.npmjs.org/', './kew' ]
+724 verbose url resolved https://registry.npmjs.org/kew
+725 verbose request where is https://registry.npmjs.org/kew
+726 info trying registry request attempt 1 at 10:01:05
+727 verbose etag "20QQL1AUIOCX2BS53Z20LB26G"
+728 http GET https://registry.npmjs.org/kew
+729 silly gunzTarPerm extractEntry images/jasmine-horizontal.png
+730 silly gunzTarPerm modified mode [ 'images/jasmine-horizontal.png', 420, 438 ]
+731 silly gunzTarPerm extractEntry images/jasmine-horizontal.svg
+732 silly gunzTarPerm modified mode [ 'images/jasmine-horizontal.svg', 420, 438 ]
+733 verbose request where is /progress
+734 verbose request registry https://registry.npmjs.org/
+735 verbose url raw /progress
+736 verbose url resolving [ 'https://registry.npmjs.org/', './progress' ]
+737 verbose url resolved https://registry.npmjs.org/progress
+738 verbose request where is https://registry.npmjs.org/progress
+739 info trying registry request attempt 1 at 10:01:05
+740 verbose etag "BAHFXXB43QN477Q2780ALDL6T"
+741 http GET https://registry.npmjs.org/progress
+742 silly gunzTarPerm extractEntry images/jasmine_favicon.png
+743 silly gunzTarPerm modified mode [ 'images/jasmine_favicon.png', 420, 438 ]
+744 silly gunzTarPerm extractEntry lib/jasmine-core.js
+745 silly gunzTarPerm modified mode [ 'lib/jasmine-core.js', 420, 438 ]
+746 silly gunzTarPerm extractEntry lib/console/console.js
+747 silly gunzTarPerm modified mode [ 'lib/console/console.js', 420, 438 ]
+748 silly gunzTarPerm extractEntry lib/jasmine-core/boot.js
+749 silly gunzTarPerm modified mode [ 'lib/jasmine-core/boot.js', 420, 438 ]
+750 silly gunzTarPerm extractEntry lib/jasmine-core/jasmine-html.js
+751 silly gunzTarPerm modified mode [ 'lib/jasmine-core/jasmine-html.js', 420, 438 ]
+752 silly gunzTarPerm extractEntry lib/jasmine-core/jasmine.js
+753 silly gunzTarPerm modified mode [ 'lib/jasmine-core/jasmine.js', 420, 438 ]
+754 verbose request where is /fs-extra
+755 verbose request registry https://registry.npmjs.org/
+756 verbose url raw /fs-extra
+757 verbose url resolving [ 'https://registry.npmjs.org/', './fs-extra' ]
+758 verbose url resolved https://registry.npmjs.org/fs-extra
+759 verbose request where is https://registry.npmjs.org/fs-extra
+760 info trying registry request attempt 1 at 10:01:05
+761 verbose etag "5GIWV4AXL5SCEXI5XFTIT2GMI"
+762 http GET https://registry.npmjs.org/fs-extra
+763 silly gunzTarPerm extractEntry lib/jasmine-core/json2.js
+764 silly gunzTarPerm modified mode [ 'lib/jasmine-core/json2.js', 420, 438 ]
+765 silly gunzTarPerm extractEntry lib/jasmine-core/node_boot.js
+766 silly gunzTarPerm modified mode [ 'lib/jasmine-core/node_boot.js', 420, 438 ]
+767 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/lib/jasmine_examples/Player.js
+768 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/node_example/lib/jasmine_examples/Player.js',
+768 silly gunzTarPerm   420,
+768 silly gunzTarPerm   438 ]
+769 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/lib/jasmine_examples/Song.js
+770 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/node_example/lib/jasmine_examples/Song.js',
+770 silly gunzTarPerm   420,
+770 silly gunzTarPerm   438 ]
+771 verbose cache add [ 'grunt@0.4.x', null ]
+772 verbose cache add name=undefined spec="grunt@0.4.x" args=["grunt@0.4.x",null]
+773 verbose parsed url { protocol: null,
+773 verbose parsed url   slashes: null,
+773 verbose parsed url   auth: null,
+773 verbose parsed url   host: null,
+773 verbose parsed url   port: null,
+773 verbose parsed url   hostname: null,
+773 verbose parsed url   hash: null,
+773 verbose parsed url   search: null,
+773 verbose parsed url   query: null,
+773 verbose parsed url   pathname: 'grunt@0.4.x',
+773 verbose parsed url   path: 'grunt@0.4.x',
+773 verbose parsed url   href: 'grunt@0.4.x' }
+774 verbose already installed skipping karma@~0.12.0 C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+775 verbose cache add name="grunt" spec="0.4.x" args=["grunt","0.4.x"]
+776 verbose parsed url { protocol: null,
+776 verbose parsed url   slashes: null,
+776 verbose parsed url   auth: null,
+776 verbose parsed url   host: null,
+776 verbose parsed url   port: null,
+776 verbose parsed url   hostname: null,
+776 verbose parsed url   hash: null,
+776 verbose parsed url   search: null,
+776 verbose parsed url   query: null,
+776 verbose parsed url   pathname: '0.4.x',
+776 verbose parsed url   path: '0.4.x',
+776 verbose parsed url   href: '0.4.x' }
+777 verbose addNamed [ 'grunt', '0.4.x' ]
+778 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+779 silly lockFile 6aebe2f8-grunt-0-4-x grunt@0.4.x
+780 verbose lock grunt@0.4.x C:\Users\e.kyorova\AppData\Roaming\npm-cache\6aebe2f8-grunt-0-4-x.lock
+781 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/spec/helpers/jasmine_examples/SpecHelper.js
+782 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/node_example/spec/helpers/jasmine_examples/SpecHelper.js',
+782 silly gunzTarPerm   420,
+782 silly gunzTarPerm   438 ]
+783 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/spec/jasmine_examples/PlayerSpec.js
+784 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/node_example/spec/jasmine_examples/PlayerSpec.js',
+784 silly gunzTarPerm   420,
+784 silly gunzTarPerm   438 ]
+785 silly addNameRange { name: 'grunt', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+786 verbose registry.get https://registry.npmjs.org/grunt not expired, no request
+787 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+788 silly addNameRange versions [ 'grunt',
+788 silly addNameRange   [ '0.1.0',
+788 silly addNameRange     '0.1.1',
+788 silly addNameRange     '0.1.2',
+788 silly addNameRange     '0.2.0',
+788 silly addNameRange     '0.2.1',
+788 silly addNameRange     '0.2.2',
+788 silly addNameRange     '0.2.3',
+788 silly addNameRange     '0.2.4',
+788 silly addNameRange     '0.2.5',
+788 silly addNameRange     '0.2.6',
+788 silly addNameRange     '0.2.7',
+788 silly addNameRange     '0.2.8',
+788 silly addNameRange     '0.2.9',
+788 silly addNameRange     '0.2.10',
+788 silly addNameRange     '0.2.11',
+788 silly addNameRange     '0.2.12',
+788 silly addNameRange     '0.2.13',
+788 silly addNameRange     '0.2.14',
+788 silly addNameRange     '0.2.15',
+788 silly addNameRange     '0.3.0',
+788 silly addNameRange     '0.3.1',
+788 silly addNameRange     '0.3.2',
+788 silly addNameRange     '0.3.3',
+788 silly addNameRange     '0.3.4',
+788 silly addNameRange     '0.3.5',
+788 silly addNameRange     '0.3.6',
+788 silly addNameRange     '0.3.7',
+788 silly addNameRange     '0.3.8',
+788 silly addNameRange     '0.3.9',
+788 silly addNameRange     '0.3.10',
+788 silly addNameRange     '0.3.11',
+788 silly addNameRange     '0.3.12',
+788 silly addNameRange     '0.3.13',
+788 silly addNameRange     '0.3.14',
+788 silly addNameRange     '0.3.15',
+788 silly addNameRange     '0.3.16',
+788 silly addNameRange     '0.3.17',
+788 silly addNameRange     '0.4.0',
+788 silly addNameRange     '0.4.1',
+788 silly addNameRange     '0.4.2',
+788 silly addNameRange     '0.4.3',
+788 silly addNameRange     '0.4.4',
+788 silly addNameRange     '0.4.5',
+788 silly addNameRange     '0.3.13-a',
+788 silly addNameRange     '0.4.0-a',
+788 silly addNameRange     '0.4.0-rc1',
+788 silly addNameRange     '0.4.0-rc2',
+788 silly addNameRange     '0.4.0-rc3',
+788 silly addNameRange     '0.4.0-rc4',
+788 silly addNameRange     '0.4.0-rc5',
+788 silly addNameRange     '0.4.0-rc6',
+788 silly addNameRange     '0.4.0-rc7',
+788 silly addNameRange     '0.4.0-rc8' ] ]
+789 verbose addNamed [ 'grunt', '0.4.5' ]
+790 verbose addNamed [ '0.4.5', '0.4.5' ]
+791 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+792 verbose lock grunt@0.4.5 C:\Users\e.kyorova\AppData\Roaming\npm-cache\81abf7ad-grunt-0-4-5.lock
+793 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+794 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+795 silly lockFile 6aebe2f8-grunt-0-4-x grunt@0.4.x
+796 silly lockFile 6aebe2f8-grunt-0-4-x grunt@0.4.x
+797 silly gunzTarPerm extractEntry lib/jasmine-core/example/spec/PlayerSpec.js
+798 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/spec/PlayerSpec.js', 420, 438 ]
+799 silly gunzTarPerm extractEntry lib/jasmine-core/example/spec/SpecHelper.js
+800 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/spec/SpecHelper.js', 420, 438 ]
+801 silly resolved [ { name: 'grunt',
+801 silly resolved     description: 'The JavaScript Task Runner',
+801 silly resolved     version: '0.4.5',
+801 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+801 silly resolved     homepage: 'http://gruntjs.com/',
+801 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+801 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+801 silly resolved     licenses: [ [Object] ],
+801 silly resolved     main: 'lib/grunt',
+801 silly resolved     scripts: { test: 'grunt test' },
+801 silly resolved     engines: { node: '>= 0.8.0' },
+801 silly resolved     keywords:
+801 silly resolved      [ 'task',
+801 silly resolved        'async',
+801 silly resolved        'cli',
+801 silly resolved        'minify',
+801 silly resolved        'uglify',
+801 silly resolved        'build',
+801 silly resolved        'lodash',
+801 silly resolved        'unit',
+801 silly resolved        'test',
+801 silly resolved        'qunit',
+801 silly resolved        'nodeunit',
+801 silly resolved        'server',
+801 silly resolved        'init',
+801 silly resolved        'scaffold',
+801 silly resolved        'make',
+801 silly resolved        'jake',
+801 silly resolved        'tool' ],
+801 silly resolved     dependencies:
+801 silly resolved      { async: '~0.1.22',
+801 silly resolved        'coffee-script': '~1.3.3',
+801 silly resolved        colors: '~0.6.2',
+801 silly resolved        dateformat: '1.0.2-1.2.3',
+801 silly resolved        eventemitter2: '~0.4.13',
+801 silly resolved        'findup-sync': '~0.1.2',
+801 silly resolved        glob: '~3.1.21',
+801 silly resolved        hooker: '~0.2.3',
+801 silly resolved        'iconv-lite': '~0.2.11',
+801 silly resolved        minimatch: '~0.2.12',
+801 silly resolved        nopt: '~1.0.10',
+801 silly resolved        rimraf: '~2.2.8',
+801 silly resolved        lodash: '~0.9.2',
+801 silly resolved        'underscore.string': '~2.2.1',
+801 silly resolved        which: '~1.0.5',
+801 silly resolved        'js-yaml': '~2.0.5',
+801 silly resolved        exit: '~0.1.1',
+801 silly resolved        getobject: '~0.1.0',
+801 silly resolved        'grunt-legacy-util': '~0.2.0',
+801 silly resolved        'grunt-legacy-log': '~0.1.0' },
+801 silly resolved     devDependencies:
+801 silly resolved      { temporary: '~0.0.4',
+801 silly resolved        'grunt-contrib-jshint': '~0.6.4',
+801 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+801 silly resolved        'grunt-contrib-watch': '~0.5.3',
+801 silly resolved        difflet: '~0.2.3',
+801 silly resolved        semver: '2.1.0',
+801 silly resolved        shelljs: '~0.2.5' },
+801 silly resolved     _id: 'grunt@0.4.5',
+801 silly resolved     dist:
+801 silly resolved      { shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+801 silly resolved        tarball: 'http://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz' },
+801 silly resolved     _from: 'grunt@0.4.x',
+801 silly resolved     _npmVersion: '1.4.4',
+801 silly resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+801 silly resolved     maintainers: [ [Object], [Object] ],
+801 silly resolved     directories: {},
+801 silly resolved     _shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+801 silly resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+801 silly resolved     readme: 'ERROR: No README data found!' } ]
+802 info install grunt@0.4.5 into C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+803 info installOne grunt@0.4.5
+804 silly gunzTarPerm extractEntry lib/jasmine-core/example/src/Player.js
+805 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/src/Player.js', 420, 438 ]
+806 silly gunzTarPerm extractEntry lib/jasmine-core/example/src/Song.js
+807 silly gunzTarPerm modified mode [ 'lib/jasmine-core/example/src/Song.js', 420, 438 ]
+808 verbose node_modules\grunt unbuild
+809 verbose tar unpack C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt\0.4.5\package.tgz
+810 silly lockFile 0bc15cf1-ilksharing-ui-node-modules-grunt tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt
+811 verbose lock tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt C:\Users\e.kyorova\AppData\Roaming\npm-cache\0bc15cf1-ilksharing-ui-node-modules-grunt.lock
+812 silly lockFile dcfdbd78-pm-cache-grunt-0-4-5-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt\0.4.5\package.tgz
+813 verbose lock tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\grunt\0.4.5\package.tgz C:\Users\e.kyorova\AppData\Roaming\npm-cache\dcfdbd78-pm-cache-grunt-0-4-5-package-tgz.lock
+814 silly gunzTarPerm modes [ '777', '666' ]
+815 silly gunzTarPerm extractEntry lib/jasmine-core/jasmine.css
+816 silly gunzTarPerm modified mode [ 'lib/jasmine-core/jasmine.css', 420, 438 ]
+817 silly gunzTarPerm extractEntry requirements.txt
+818 silly gunzTarPerm modified mode [ 'requirements.txt', 420, 438 ]
+819 silly gunzTarPerm extractEntry package.json
+820 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+821 silly gunzTarPerm extractEntry .npmignore
+822 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+823 silly gunzTarPerm extractEntry README.md
+824 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+825 silly gunzTarPerm extractEntry CONTRIBUTING.md
+826 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+827 silly gunzTarPerm extractEntry LICENSE-MIT
+828 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+829 silly gunzTarPerm extractEntry appveyor.yml
+830 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+831 silly gunzTarPerm extractEntry internal-tasks/bump.js
+832 silly gunzTarPerm modified mode [ 'internal-tasks/bump.js', 420, 438 ]
+833 silly gunzTarPerm extractEntry internal-tasks/subgrunt.js
+834 silly gunzTarPerm modified mode [ 'internal-tasks/subgrunt.js', 420, 438 ]
+835 silly gunzTarPerm extractEntry lib/grunt.js
+836 silly gunzTarPerm modified mode [ 'lib/grunt.js', 420, 438 ]
+837 silly gunzTarPerm extractEntry lib/grunt/cli.js
+838 silly gunzTarPerm modified mode [ 'lib/grunt/cli.js', 420, 438 ]
+839 silly gunzTarPerm extractEntry lib/grunt/config.js
+840 silly gunzTarPerm modified mode [ 'lib/grunt/config.js', 420, 438 ]
+841 silly gunzTarPerm extractEntry lib/grunt/event.js
+842 silly gunzTarPerm modified mode [ 'lib/grunt/event.js', 420, 438 ]
+843 silly gunzTarPerm extractEntry lib/grunt/fail.js
+844 silly gunzTarPerm modified mode [ 'lib/grunt/fail.js', 420, 438 ]
+845 silly gunzTarPerm extractEntry lib/grunt/file.js
+846 silly gunzTarPerm modified mode [ 'lib/grunt/file.js', 420, 438 ]
+847 silly gunzTarPerm extractEntry lib/grunt/help.js
+848 silly gunzTarPerm modified mode [ 'lib/grunt/help.js', 420, 438 ]
+849 silly gunzTarPerm extractEntry lib/grunt/option.js
+850 silly gunzTarPerm modified mode [ 'lib/grunt/option.js', 420, 438 ]
+851 silly gunzTarPerm extractEntry lib/grunt/task.js
+852 silly gunzTarPerm modified mode [ 'lib/grunt/task.js', 420, 438 ]
+853 silly gunzTarPerm extractEntry lib/grunt/template.js
+854 silly gunzTarPerm modified mode [ 'lib/grunt/template.js', 420, 438 ]
+855 silly gunzTarPerm extractEntry lib/util/task.js
+856 silly gunzTarPerm modified mode [ 'lib/util/task.js', 420, 438 ]
+857 silly lockFile f1f4e08c-ing-ui-node-modules-jasmine-core tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\jasmine-core
+858 silly lockFile f1f4e08c-ing-ui-node-modules-jasmine-core tar://C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\jasmine-core
+859 silly lockFile 797c4296-e-jasmine-core-2-2-0-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\jasmine-core\2.2.0\package.tgz
+860 silly lockFile 797c4296-e-jasmine-core-2-2-0-package-tgz tar://C:\Users\e.kyorova\AppData\Roaming\npm-cache\jasmine-core\2.2.0\package.tgz
+861 info preinstall jasmine-core@2.2.0
+862 verbose readDependencies using package.json deps
+863 verbose readDependencies using package.json deps
+864 silly resolved []
+865 verbose about to build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\jasmine-core
+866 info build C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\jasmine-core
+867 verbose linkStuff [ false,
+867 verbose linkStuff   false,
+867 verbose linkStuff   false,
+867 verbose linkStuff   'C:\\Users\\e.kyorova\\breastmilksharing\\breastmilksharing\\breatmilksharing-ui\\node_modules' ]
+868 info linkStuff jasmine-core@2.2.0
+869 verbose linkBins jasmine-core@2.2.0
+870 verbose linkMans jasmine-core@2.2.0
+871 verbose rebuildBundles jasmine-core@2.2.0
+872 info install jasmine-core@2.2.0
+873 info postinstall jasmine-core@2.2.0
+874 http 304 https://registry.npmjs.org/which
+875 silly registry.get cb [ 304,
+875 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+875 silly registry.get     server: 'Apache',
+875 silly registry.get     via: '1.1 varnish',
+875 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:00:03 GMT',
+875 silly registry.get     'cache-control': 'max-age=60',
+875 silly registry.get     etag: '"ACJ1YRITE4VMV6GP70B3VUUQO"',
+875 silly registry.get     age: '57',
+875 silly registry.get     'x-served-by': 'cache-ams4147-AMS',
+875 silly registry.get     'x-cache': 'HIT',
+875 silly registry.get     'x-cache-hits': '2',
+875 silly registry.get     'x-timer': 'S1427097660.361117,VS0,VE0',
+875 silly registry.get     vary: 'Accept',
+875 silly registry.get     'content-length': '0',
+875 silly registry.get     'keep-alive': 'timeout=10, max=50',
+875 silly registry.get     connection: 'Keep-Alive' } ]
+876 verbose etag https://registry.npmjs.org/which from cache
+877 http 304 https://registry.npmjs.org/npmconf
+878 silly registry.get cb [ 304,
+878 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+878 silly registry.get     server: 'Apache',
+878 silly registry.get     via: '1.1 varnish',
+878 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:01:00 GMT',
+878 silly registry.get     'cache-control': 'max-age=60',
+878 silly registry.get     etag: '"BIMZ2D65K180LLQ9AUTWNT859"',
+878 silly registry.get     age: '21',
+878 silly registry.get     'x-served-by': 'cache-ams4127-AMS',
+878 silly registry.get     'x-cache': 'HIT',
+878 silly registry.get     'x-cache-hits': '1',
+878 silly registry.get     'x-timer': 'S1427097660.364254,VS0,VE0',
+878 silly registry.get     vary: 'Accept',
+878 silly registry.get     'content-length': '0',
+878 silly registry.get     'keep-alive': 'timeout=10, max=50',
+878 silly registry.get     connection: 'Keep-Alive' } ]
+879 verbose etag https://registry.npmjs.org/npmconf from cache
+880 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+881 silly addNameRange versions [ 'which',
+881 silly addNameRange   [ '1.0.0',
+881 silly addNameRange     '1.0.1',
+881 silly addNameRange     '1.0.2',
+881 silly addNameRange     '1.0.3',
+881 silly addNameRange     '1.0.5',
+881 silly addNameRange     '1.0.6',
+881 silly addNameRange     '1.0.7',
+881 silly addNameRange     '1.0.8',
+881 silly addNameRange     '1.0.9' ] ]
+882 verbose addNamed [ 'which', '1.0.9' ]
+883 verbose addNamed [ '1.0.9', '1.0.9' ]
+884 silly lockFile 83832c1c-which-1-0-9 which@1.0.9
+885 verbose lock which@1.0.9 C:\Users\e.kyorova\AppData\Roaming\npm-cache\83832c1c-which-1-0-9.lock
+886 silly lockFile 83832c1c-which-1-0-9 which@1.0.9
+887 silly lockFile 83832c1c-which-1-0-9 which@1.0.9
+888 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+889 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+890 http 304 https://registry.npmjs.org/request
+891 silly registry.get cb [ 304,
+891 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+891 silly registry.get     server: 'Apache',
+891 silly registry.get     via: '1.1 varnish',
+891 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:01:00 GMT',
+891 silly registry.get     'cache-control': 'max-age=60',
+891 silly registry.get     etag: '"18XMAACKDUYS7AEGZXODVWZHI"',
+891 silly registry.get     age: '5',
+891 silly registry.get     'x-served-by': 'cache-ams4123-AMS',
+891 silly registry.get     'x-cache': 'HIT',
+891 silly registry.get     'x-cache-hits': '1',
+891 silly registry.get     'x-timer': 'S1427097660.380600,VS0,VE1',
+891 silly registry.get     vary: 'Accept',
+891 silly registry.get     'content-length': '0',
+891 silly registry.get     'keep-alive': 'timeout=10, max=50',
+891 silly registry.get     connection: 'Keep-Alive' } ]
+892 verbose etag https://registry.npmjs.org/request from cache
+893 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+894 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+895 http 304 https://registry.npmjs.org/kew
+896 silly registry.get cb [ 304,
+896 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+896 silly registry.get     server: 'Apache',
+896 silly registry.get     via: '1.1 varnish',
+896 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:01:00 GMT',
+896 silly registry.get     'cache-control': 'max-age=60',
+896 silly registry.get     etag: '"20QQL1AUIOCX2BS53Z20LB26G"',
+896 silly registry.get     age: '58',
+896 silly registry.get     'x-served-by': 'cache-ams4147-AMS',
+896 silly registry.get     'x-cache': 'HIT',
+896 silly registry.get     'x-cache-hits': '1',
+896 silly registry.get     'x-timer': 'S1427097660.411961,VS0,VE0',
+896 silly registry.get     vary: 'Accept',
+896 silly registry.get     'content-length': '0',
+896 silly registry.get     'keep-alive': 'timeout=10, max=49',
+896 silly registry.get     connection: 'Keep-Alive' } ]
+897 verbose etag https://registry.npmjs.org/kew from cache
+898 http 304 https://registry.npmjs.org/progress
+899 silly registry.get cb [ 304,
+899 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+899 silly registry.get     server: 'Apache',
+899 silly registry.get     via: '1.1 varnish',
+899 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:00:02 GMT',
+899 silly registry.get     'cache-control': 'max-age=60',
+899 silly registry.get     etag: '"BAHFXXB43QN477Q2780ALDL6T"',
+899 silly registry.get     age: '58',
+899 silly registry.get     'x-served-by': 'cache-ams4127-AMS',
+899 silly registry.get     'x-cache': 'HIT',
+899 silly registry.get     'x-cache-hits': '3',
+899 silly registry.get     'x-timer': 'S1427097660.414348,VS0,VE0',
+899 silly registry.get     vary: 'Accept',
+899 silly registry.get     'content-length': '0',
+899 silly registry.get     'keep-alive': 'timeout=10, max=49',
+899 silly registry.get     connection: 'Keep-Alive' } ]
+900 verbose etag https://registry.npmjs.org/progress from cache
+901 silly lockFile 35a7b1a6-npmconf-2-1-1 npmconf@2.1.1
+902 silly lockFile 35a7b1a6-npmconf-2-1-1 npmconf@2.1.1
+903 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+904 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+905 silly lockFile d7f05391-kew-0-4-0 kew@0.4.0
+906 silly lockFile d7f05391-kew-0-4-0 kew@0.4.0
+907 http 304 https://registry.npmjs.org/fs-extra
+908 silly registry.get cb [ 304,
+908 silly registry.get   { date: 'Mon, 23 Mar 2015 08:01:00 GMT',
+908 silly registry.get     server: 'Apache',
+908 silly registry.get     via: '1.1 varnish',
+908 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 08:01:00 GMT',
+908 silly registry.get     'cache-control': 'max-age=60',
+908 silly registry.get     etag: '"5GIWV4AXL5SCEXI5XFTIT2GMI"',
+908 silly registry.get     age: '0',
+908 silly registry.get     'x-served-by': 'cache-ams4123-AMS',
+908 silly registry.get     'x-cache': 'HIT',
+908 silly registry.get     'x-cache-hits': '1',
+908 silly registry.get     'x-timer': 'S1427097660.434698,VS0,VE100',
+908 silly registry.get     vary: 'Accept',
+908 silly registry.get     'content-length': '0',
+908 silly registry.get     'keep-alive': 'timeout=10, max=49',
+908 silly registry.get     connection: 'Keep-Alive' } ]
+909 verbose etag https://registry.npmjs.org/fs-extra from cache
+910 silly addNameRange number 2 { name: 'fs-extra',
+910 silly addNameRange   range: '>=0.16.0-0 <0.17.0-0',
+910 silly addNameRange   hasData: true }
+911 silly addNameRange versions [ 'fs-extra',
+911 silly addNameRange   [ '0.0.1',
+911 silly addNameRange     '0.0.11',
+911 silly addNameRange     '0.0.3',
+911 silly addNameRange     '0.0.4',
+911 silly addNameRange     '0.1.0',
+911 silly addNameRange     '0.1.1',
+911 silly addNameRange     '0.1.2',
+911 silly addNameRange     '0.1.3',
+911 silly addNameRange     '0.2.0',
+911 silly addNameRange     '0.2.1',
+911 silly addNameRange     '0.3.0',
+911 silly addNameRange     '0.3.1',
+911 silly addNameRange     '0.3.2',
+911 silly addNameRange     '0.4.0',
+911 silly addNameRange     '0.5.0',
+911 silly addNameRange     '0.6.0',
+911 silly addNameRange     '0.6.1',
+911 silly addNameRange     '0.6.2',
+911 silly addNameRange     '0.6.3',
+911 silly addNameRange     '0.6.4',
+911 silly addNameRange     '0.7.0',
+911 silly addNameRange     '0.7.1',
+911 silly addNameRange     '0.8.0',
+911 silly addNameRange     '0.8.1',
+911 silly addNameRange     '0.9.0',
+911 silly addNameRange     '0.9.1',
+911 silly addNameRange     '0.10.0',
+911 silly addNameRange     '0.11.0',
+911 silly addNameRange     '0.11.1',
+911 silly addNameRange     '0.12.0',
+911 silly addNameRange     '0.13.0',
+911 silly addNameRange     '0.14.0',
+911 silly addNameRange     '0.15.0',
+911 silly addNameRange     '0.16.0',
+911 silly addNameRange     '0.16.1',
+911 silly addNameRange     '0.16.2',
+911 silly addNameRange     '0.16.3',
+911 silly addNameRange     '0.16.4',
+911 silly addNameRange     '0.16.5' ] ]
+912 verbose addNamed [ 'fs-extra', '0.16.5' ]
+913 verbose addNamed [ '0.16.5', '0.16.5' ]
+914 silly lockFile 2fd46fd9-fs-extra-0-16-5 fs-extra@0.16.5
+915 verbose lock fs-extra@0.16.5 C:\Users\e.kyorova\AppData\Roaming\npm-cache\2fd46fd9-fs-extra-0-16-5.lock
+916 error Error: EPERM, lstat 'C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt\lib\util\task.js'
+916 error  { [Error: EPERM, lstat 'C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt\lib\util\task.js']
+916 error   errno: 50,
+916 error   code: 'EPERM',
+916 error   path: 'C:\\Users\\e.kyorova\\breastmilksharing\\breastmilksharing\\breatmilksharing-ui\\node_modules\\grunt\\lib\\util\\task.js',
+916 error   fstream_type: 'File',
+916 error   fstream_path: 'C:\\Users\\e.kyorova\\breastmilksharing\\breastmilksharing\\breatmilksharing-ui\\node_modules\\grunt\\lib\\util\\task.js',
+916 error   fstream_class: 'FileWriter',
+916 error   fstream_stack:
+916 error    [ 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\fstream\\lib\\writer.js:287:26',
+916 error      'Object.oncomplete (evalmachine.<anonymous>:108:15)' ] }
+917 error Please try running this command again as root/Administrator.
+918 error System Windows_NT 6.2.9200
+919 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "karma-phantomjs-launcher" "karma-jasmine" "grunt-karma" "--save-dev"
+920 error cwd C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui
+921 error node -v v0.10.35
+922 error npm -v 1.4.28
+923 error path C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt\lib\util\task.js
+924 error fstream_path C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt\lib\util\task.js
+925 error fstream_type File
+926 error fstream_class FileWriter
+927 error code EPERM
+928 error errno 50
+929 error stack Error: EPERM, lstat 'C:\Users\e.kyorova\breastmilksharing\breastmilksharing\breatmilksharing-ui\node_modules\grunt\lib\util\task.js'
+930 error fstream_stack C:\Program Files\nodejs\node_modules\npm\node_modules\fstream\lib\writer.js:287:26
+930 error fstream_stack Object.oncomplete (evalmachine.<anonymous>:108:15)
+931 verbose exit [ 50, true ]

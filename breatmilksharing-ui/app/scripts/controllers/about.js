@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name frontEndApp.controller:AboutCtrl
+ * @name breatmilksharingUiApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the frontEndApp
+ * Controller of the breatmilksharingUiApp
  */
-angular.module('frontEndApp')
+angular.module('breatmilksharingUiApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

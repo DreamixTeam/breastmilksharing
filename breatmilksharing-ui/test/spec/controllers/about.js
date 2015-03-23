@@ -3,7 +3,7 @@
 describe('Controller: AboutCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('frontEndApp'));
+  beforeEach(module('breatmilksharingUiApp'));
 
   var AboutCtrl,
     scope;

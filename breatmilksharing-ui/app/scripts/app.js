@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name frontEndApp
+ * @name breatmilksharingUiApp
  * @description
- * # frontEndApp
+ * # breatmilksharingUiApp
  *
  * Main module of the application.
  */
 angular
-  .module('frontEndApp', [
+  .module('breatmilksharingUiApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
